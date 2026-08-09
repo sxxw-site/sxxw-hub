@@ -1,6 +1,7 @@
 // 产品数据由各 app 项目的 sxxw-web/ 聚合而来(见 scripts/sync-apps.mjs)。
 // 不要手改 src/content/products.json —— 改各 app 的 sxxw-web/ 后跑 `npm run sync`。
 import productsData from '@/content/products.json';
+import type { Lang } from '@/i18n/lang';
 
 export interface Feature {
   title: string;
@@ -10,21 +11,24 @@ export interface LegalDoc {
   updated: string;
   md: string;
 }
+export interface LocaleContent {
+  tagline: string;
+  description: string;
+  features: Feature[];
+  support: { md: string };
+  legal: { privacy: LegalDoc; terms: LegalDoc };
+}
 export interface Product {
   slug: string;
   name: string;
   nameZh: string;
-  tagline: string;
-  description: string;
-  features: Feature[];
   platforms: string[];
   accent: string;
   live: boolean;
   links: { appStore?: string };
   icon: string;
   screenshots: string[];
-  support: { md: string };
-  legal: { privacy: LegalDoc; terms: LegalDoc };
+  locales: Record<Lang, LocaleContent>;
 }
 
 export const SITE = {
@@ -41,10 +45,20 @@ export const SITE = {
   api: 'https://api.sxxw.site',
 } as const;
 
-export const APPS = productsData as Product[];
+// 公司主体名(按语言)
+export function companyName(lang: Lang): string {
+  return lang === 'en' ? SITE.companyEn : SITE.company;
+}
+
+export const APPS = productsData as unknown as Product[];
 
 export function getApp(slug: string): Product | undefined {
   return APPS.find((a) => a.slug === slug);
+}
+
+// 取某 app 的当前语言内容(缺失自动回退到中文)。
+export function localize(app: Product, lang: Lang): LocaleContent {
+  return app.locales[lang] ?? app.locales.zh;
 }
 
 // public/ 下的素材需带上部署 base 前缀(项目页在 /sxxw-hub/ 子路径)。

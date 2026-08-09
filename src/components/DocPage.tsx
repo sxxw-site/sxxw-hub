@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import type { Product } from '@/config/apps';
 import { asset } from '@/config/apps';
+import { useLang } from '@/i18n/lang';
+import { useT } from '@/i18n/strings';
 import Layout from './Layout';
 import Markdown from './Markdown';
 
@@ -17,6 +19,8 @@ export default function DocPage({
   meta?: string;
   md: string;
 }) {
+  const { lang } = useLang();
+  const t = useT();
   const body = md.replace(/^#\s+.*(?:\n+|$)/, '');
   return (
     <Layout>
@@ -26,7 +30,7 @@ export default function DocPage({
       >
         <header className="mod-doc-hero">
           <p className="mod-breadcrumb">
-            <Link to="/">首页</Link> /{' '}
+            <Link to="/">{t('home')}</Link> /{' '}
             <Link to={`/${app.slug}`}>{app.name}</Link> / {title}
           </p>
           <div className="mod-doc-hero-main">
@@ -40,7 +44,7 @@ export default function DocPage({
             <div>
               <p className="mod-doc-eyebrow">
                 {app.name}
-                {app.nameZh && ` · ${app.nameZh}`}
+                {lang === 'zh' && app.nameZh && ` · ${app.nameZh}`}
               </p>
               <h1>{title}</h1>
               {meta && <span className="mod-doc-pill">{meta}</span>}
@@ -49,7 +53,7 @@ export default function DocPage({
         </header>
 
         <article className="mod-doc">
-          {body.trim() ? <Markdown text={body} /> : <p>该文档暂未提供。</p>}
+          {body.trim() ? <Markdown text={body} /> : <p>{t('doc_missing')}</p>}
         </article>
       </div>
     </Layout>

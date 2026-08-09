@@ -1,12 +1,17 @@
 import { useParams, Link } from 'react-router-dom';
-import { getApp, asset } from '@/config/apps';
+import { getApp, asset, localize } from '@/config/apps';
+import { useLang } from '@/i18n/lang';
+import { useT } from '@/i18n/strings';
 import Layout from '@/components/Layout';
 import NotFoundPage from './NotFoundPage';
 
 export default function AppPage() {
   const { app: slug } = useParams();
+  const { lang } = useLang();
+  const t = useT();
   const app = slug ? getApp(slug) : undefined;
   if (!app) return <NotFoundPage />;
+  const c = localize(app, lang);
 
   return (
     <Layout>
@@ -15,31 +20,32 @@ export default function AppPage() {
         style={{ ['--accent' as string]: app.accent }}
       >
         <p className="mod-breadcrumb">
-          <Link to="/">首页</Link> / {app.name}
+          <Link to="/">{t('home')}</Link> / {app.name}
         </p>
 
-        {/* 产品头部 */}
         <div className="mod-app-hero">
           <img
             className="mod-app-icon"
             src={asset(app.icon)}
-            alt={`${app.name} 图标`}
+            alt={app.name}
             width={104}
             height={104}
           />
           <div className="mod-app-head">
             <h1>
               {app.name}
-              {app.nameZh && <span className="mod-app-zh">{app.nameZh}</span>}
+              {lang === 'zh' && app.nameZh && (
+                <span className="mod-app-zh">{app.nameZh}</span>
+              )}
             </h1>
-            <p className="mod-lead">{app.tagline}</p>
+            <p className="mod-lead">{c.tagline}</p>
             <div className="mod-badges">
               {app.platforms.map((p) => (
                 <span key={p} className="mod-badge">
                   {p}
                 </span>
               ))}
-              {!app.live && <span className="mod-tag">即将上线</span>}
+              {!app.live && <span className="mod-tag">{t('coming_soon')}</span>}
             </div>
             <div className="mod-doclinks">
               {app.links.appStore && (
@@ -49,27 +55,26 @@ export default function AppPage() {
                   target="_blank"
                   rel="noopener"
                 >
-                  App Store 下载 →
+                  {t('appstore')} →
                 </a>
               )}
               <Link
                 className="mod-btn mod-btn-ghost"
                 to={`/${app.slug}/support`}
               >
-                技术支持
+                {t('support')}
               </Link>
             </div>
           </div>
         </div>
 
-        <p className="mod-app-desc">{app.description}</p>
+        <p className="mod-app-desc">{c.description}</p>
 
-        {/* 功能亮点 */}
-        {app.features.length > 0 && (
+        {c.features.length > 0 && (
           <section className="mod-app-section">
-            <h2>功能亮点</h2>
+            <h2>{t('features_title')}</h2>
             <div className="mod-feature-grid">
-              {app.features.map((f) => (
+              {c.features.map((f) => (
                 <div key={f.title} className="mod-feature">
                   <h3>{f.title}</h3>
                   <p>{f.desc}</p>
@@ -79,17 +84,16 @@ export default function AppPage() {
           </section>
         )}
 
-        {/* 截图 */}
         {app.screenshots.length > 0 && (
           <section className="mod-app-section">
-            <h2>产品截图</h2>
+            <h2>{t('screenshots_title')}</h2>
             <div className="mod-shots">
               {app.screenshots.map((s, i) => (
                 <img
                   key={s}
                   className="mod-shot"
                   src={asset(s)}
-                  alt={`${app.name} 截图 ${i + 1}`}
+                  alt={`${app.name} ${i + 1}`}
                   loading="lazy"
                 />
               ))}
@@ -97,21 +101,20 @@ export default function AppPage() {
           </section>
         )}
 
-        {/* 法律与合规 */}
         <section className="mod-app-section">
-          <h2>法律与合规</h2>
+          <h2>{t('legal_title')}</h2>
           <div className="mod-doclinks">
             <Link
               className="mod-btn mod-btn-ghost"
               to={`/${app.slug}/legal/privacy`}
             >
-              隐私政策
+              {t('privacy')}
             </Link>
             <Link
               className="mod-btn mod-btn-ghost"
               to={`/${app.slug}/legal/terms`}
             >
-              用户协议
+              {t('terms')}
             </Link>
           </div>
         </section>

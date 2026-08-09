@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
+import { useT } from '@/i18n/strings';
 
 export default function NotFoundPage() {
+  const t = useT();
   return (
     <div
       style={{
@@ -15,9 +17,9 @@ export default function NotFoundPage() {
       }}
     >
       <h1 style={{ fontSize: '64px', margin: 0 }}>404</h1>
-      <p style={{ color: '#8b93a3', margin: 0 }}>页面走丢了</p>
+      <p style={{ color: '#8b93a3', margin: 0 }}>{t('not_found')}</p>
       <Link to="/" style={{ color: '#6d5ef0', fontWeight: 600 }}>
-        返回首页
+        {t('back_home')}
       </Link>
     </div>
   );

@@ -73,31 +73,51 @@ for (const { slug, dir } of MANIFEST) {
     return existsSync(abs) ? readFileSync(abs, 'utf8') : '';
   };
 
+  // 按语言组装;英文缺失的字段回退到中文,保证英文页永不空白。
+  const zhMdPrivacy = readMd('privacy.md');
+  const zhMdTerms = readMd('terms.md');
+  const zhMdSupport = readMd('support.md');
+  const en = p.en ?? {};
+
+  const locale = (lang) => {
+    const isEn = lang === 'en';
+    return {
+      tagline: (isEn ? en.tagline : p.tagline) || p.tagline || '',
+      description:
+        (isEn ? en.description : p.description) || p.description || '',
+      features: (isEn ? en.features : p.features) || p.features || [],
+      support: {
+        md: (isEn ? readMd('support.en.md') : zhMdSupport) || zhMdSupport,
+      },
+      legal: {
+        privacy: {
+          updated: p.legal?.privacy?.updated ?? '',
+          md: (isEn ? readMd('privacy.en.md') : zhMdPrivacy) || zhMdPrivacy,
+        },
+        terms: {
+          updated: p.legal?.terms?.updated ?? '',
+          md: (isEn ? readMd('terms.en.md') : zhMdTerms) || zhMdTerms,
+        },
+      },
+    };
+  };
+
   products.push({
     slug: p.slug,
     name: p.name,
     nameZh: p.nameZh ?? '',
-    tagline: p.tagline ?? '',
-    description: p.description ?? '',
-    features: p.features ?? [],
     platforms: p.platforms ?? [],
     accent: p.accent ?? '#6d5ef0',
     live: p.live ?? true,
     links: p.links ?? {},
     icon: iconWeb,
     screenshots: shotsWeb,
-    support: { md: readMd('support.md') },
-    legal: {
-      privacy: {
-        updated: p.legal?.privacy?.updated ?? '',
-        md: readMd('privacy.md'),
-      },
-      terms: { updated: p.legal?.terms?.updated ?? '', md: readMd('terms.md') },
-    },
+    locales: { zh: locale('zh'), en: locale('en') },
   });
 
+  const hasEn = Boolean(en.tagline && readMd('privacy.en.md'));
   console.log(
-    `✓ ${slug}:图标${iconWeb ? '✓' : '✗'} 截图 ${shotsWeb.length} 张`,
+    `✓ ${slug}:图标${iconWeb ? '✓' : '✗'} 截图 ${shotsWeb.length} 张 英文${hasEn ? '✓' : '(回退中文)'}`,
   );
 }
 

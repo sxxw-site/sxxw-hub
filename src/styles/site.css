@@ -66,6 +66,23 @@
 .mod-nav-cta:hover {
   border-color: var(--grad-a);
 }
+.mod-lang {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 5px 11px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+.mod-lang:hover {
+  color: var(--fg);
+  border-color: var(--grad-a);
+}
 
 /* hero */
 .mod-hero {
