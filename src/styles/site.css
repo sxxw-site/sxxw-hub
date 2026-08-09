@@ -456,48 +456,138 @@
   flex: 0 0 auto;
 }
 
-/* 合规长文排版 */
-.mod-prose {
+/* 内容页(合规 / 技术支持)—— 与落地页一致的品牌视觉 */
+.mod-doc-hero {
+  padding-bottom: 28px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+.mod-doc-hero::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 72px;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(
+    100deg,
+    var(--accent, var(--grad-a)),
+    color-mix(in srgb, var(--accent, var(--grad-b)) 40%, var(--grad-b))
+  );
+}
+.mod-doc-hero-main {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.mod-doc-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
+  flex: 0 0 auto;
+}
+.mod-doc-eyebrow {
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--accent, var(--grad-a));
+}
+.mod-doc-hero h1 {
+  font-size: clamp(28px, 4.5vw, 40px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+.mod-doc-pill {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 12.5px;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 12px;
+}
+
+/* 正文精排 */
+.mod-doc {
   max-width: 760px;
 }
-.mod-prose .mod-updated {
-  color: var(--muted);
-  font-size: 14px;
-  margin: 0 0 32px;
-}
-.mod-prose h1 {
-  font-size: clamp(26px, 4vw, 34px);
-  margin: 0 0 12px;
-}
-.mod-prose h2 {
-  font-size: 20px;
+.mod-doc h2 {
+  font-size: 21px;
   font-weight: 700;
-  margin: 36px 0 12px;
+  letter-spacing: -0.01em;
+  margin: 40px 0 14px;
+  padding-left: 14px;
+  position: relative;
 }
-.mod-prose h3 {
-  font-size: 16px;
+.mod-doc h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 3px;
+  bottom: 3px;
+  width: 4px;
+  border-radius: 3px;
+  background: var(--accent, var(--grad-a));
+}
+.mod-doc h3 {
+  font-size: 16.5px;
   font-weight: 600;
-  margin: 22px 0 8px;
+  color: var(--fg);
+  margin: 26px 0 8px;
+  padding-left: 16px;
+  position: relative;
 }
-.mod-prose p {
+.mod-doc h3::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent, var(--grad-a));
+}
+.mod-doc p {
   color: #c7cdda;
-  line-height: 1.8;
+  line-height: 1.85;
   margin: 0 0 14px;
 }
-.mod-prose ul {
+.mod-doc ul {
+  list-style: none;
   color: #c7cdda;
-  line-height: 1.8;
-  margin: 0 0 14px;
-  padding-left: 22px;
+  line-height: 1.85;
+  margin: 0 0 16px;
+  padding-left: 4px;
 }
-.mod-prose li {
-  margin: 0 0 6px;
+.mod-doc li {
+  position: relative;
+  padding-left: 20px;
+  margin: 0 0 8px;
 }
-.mod-prose a {
-  color: var(--grad-a);
+.mod-doc li::before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 11px;
+  width: 6px;
+  height: 6px;
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--accent, var(--grad-a)) 70%, transparent);
 }
-.mod-prose a:hover {
+.mod-doc a {
+  color: var(--accent, var(--grad-a));
+}
+.mod-doc a:hover {
   text-decoration: underline;
+}
+.mod-doc strong {
+  color: var(--fg);
 }
 
 /* 移动端 */

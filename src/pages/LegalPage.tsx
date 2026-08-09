@@ -1,7 +1,6 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { getApp } from '@/config/apps';
-import Layout from '@/components/Layout';
-import Markdown from '@/components/Markdown';
+import DocPage from '@/components/DocPage';
 import NotFoundPage from './NotFoundPage';
 
 type DocKey = 'privacy' | 'terms';
@@ -16,17 +15,13 @@ export default function LegalPage() {
   const key = doc as DocKey;
   if (!app || (key !== 'privacy' && key !== 'terms')) return <NotFoundPage />;
 
-  const md = app.legal[key].md;
-
+  const legal = app.legal[key];
   return (
-    <Layout>
-      <div className="mod-container mod-page mod-prose">
-        <p className="mod-breadcrumb">
-          <Link to="/">首页</Link> / <Link to={`/${app.slug}`}>{app.name}</Link>{' '}
-          / {DOC_TITLE[key]}
-        </p>
-        {md ? <Markdown text={md} /> : <p>该文档暂未提供,请稍后查看。</p>}
-      </div>
-    </Layout>
+    <DocPage
+      app={app}
+      title={DOC_TITLE[key]}
+      meta={legal.updated ? `最后更新 ${legal.updated}` : undefined}
+      md={legal.md}
+    />
   );
 }
