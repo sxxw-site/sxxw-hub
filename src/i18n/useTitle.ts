@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useLang } from './lang';
-import { SITE, companyName } from '@/config/apps';
+import { SITE } from '@/config/apps';
 
 // “官方网站”按语言(仅用于文档标题,不进主字典)。
 const OFFICIAL: Record<string, string> = {
@@ -25,6 +25,6 @@ export function useTitle(pageTitle?: string) {
     const brand = lang === 'zh' ? SITE.brand : 'Shuxia Xiaowu';
     document.title = pageTitle
       ? `${pageTitle} · ${brand}`
-      : `${companyName(lang)} · ${OFFICIAL[lang] ?? OFFICIAL.en}`;
+      : `${brand} · ${OFFICIAL[lang] ?? OFFICIAL.en}`;
   }, [pageTitle, lang]);
 }
