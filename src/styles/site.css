@@ -314,3 +314,74 @@
 .mod-footer-bar a:hover {
   color: var(--fg);
 }
+
+/* 内容页(app 落地页 / 合规页)*/
+.mod-page {
+  padding: 64px 0 72px;
+  min-height: 60vh;
+}
+.mod-breadcrumb {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0 0 28px;
+}
+.mod-breadcrumb a:hover {
+  color: var(--fg);
+}
+.mod-page h1 {
+  font-size: clamp(30px, 5vw, 48px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 16px;
+}
+.mod-lead {
+  color: var(--muted);
+  font-size: clamp(16px, 2vw, 19px);
+  max-width: 640px;
+  margin: 0 0 32px;
+}
+.mod-doclinks {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+/* 合规长文排版 */
+.mod-prose {
+  max-width: 760px;
+}
+.mod-prose .mod-updated {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0 0 32px;
+}
+.mod-prose h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 36px 0 12px;
+}
+.mod-prose p {
+  color: #c7cdda;
+  line-height: 1.8;
+  margin: 0 0 14px;
+}
+.mod-prose a {
+  color: var(--grad-a);
+}
+.mod-prose a:hover {
+  text-decoration: underline;
+}
+
+/* 移动端 */
+@media (max-width: 640px) {
+  .mod-navlinks {
+    gap: 16px;
+    font-size: 14px;
+  }
+  .mod-stats {
+    gap: 28px;
+  }
+  .mod-footer-grid {
+    flex-direction: column;
+  }
+}

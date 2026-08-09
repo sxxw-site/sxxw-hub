@@ -1,25 +1,13 @@
+import { Link } from 'react-router-dom';
 import { APPS, SITE } from '@/config/apps';
-import './HomePage.css';
+import SiteHeader from '@/components/SiteHeader';
+import SiteFooter from '@/components/SiteFooter';
+import '@/styles/site.css';
 
 export default function HomePage() {
-  const year = new Date().getFullYear();
   return (
     <div className="mod">
-      <header className="mod-header">
-        <div className="mod-container mod-nav">
-          <div className="mod-logo">
-            {SITE.brand}
-            <span className="mod-logo-en">{SITE.brandEn}</span>
-          </div>
-          <nav className="mod-navlinks">
-            <a href="#products">产品</a>
-            <a href="#about">关于</a>
-            <a className="mod-nav-cta" href="#contact">
-              联系我们
-            </a>
-          </nav>
-        </div>
-      </header>
+      <SiteHeader />
 
       <section className="mod-hero">
         <div className="mod-container">
@@ -66,10 +54,10 @@ export default function HomePage() {
           </div>
           <div className="mod-grid">
             {APPS.map((app) => (
-              <a
+              <Link
                 key={app.slug}
                 className="mod-card"
-                href={`/${app.slug}/`}
+                to={`/${app.slug}`}
                 style={{ ['--accent' as string]: app.accent }}
               >
                 <div className="mod-card-top">
@@ -79,7 +67,7 @@ export default function HomePage() {
                 <h3>{app.name}</h3>
                 <p>{app.desc ?? app.tagline}</p>
                 <span className="mod-card-arrow">了解更多 →</span>
-              </a>
+              </Link>
             ))}
           </div>
         </div>
@@ -96,24 +84,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <footer className="mod-footer" id="contact">
-        <div className="mod-container mod-footer-grid">
-          <div>
-            <div className="mod-logo">{SITE.brand}</div>
-            <p className="mod-footer-company">{SITE.companyEn}</p>
-          </div>
-          <div className="mod-footer-contact">
-            <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
-            <a href={`https://${SITE.domain}`}>{SITE.domain}</a>
-          </div>
-        </div>
-        <div className="mod-container mod-footer-bar">
-          <span>
-            © {year} {SITE.company} 版权所有
-          </span>
-          {SITE.icp && <a href="https://beian.miit.gov.cn/">{SITE.icp}</a>}
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }
