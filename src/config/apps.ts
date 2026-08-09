@@ -22,7 +22,7 @@ export const SITE = {
   company: '上海树下小屋网络科技有限公司',
   companyEn: 'Shanghai Shuxia Xiaowu Network Technology Co., Ltd.',
   domain: 'www.sxxw.site',
-  email: 'contact@sxxw.site', // TODO: 换成正式对外邮箱
+  email: 'house@sxxw.site', // 商务合作对外邮箱
   // ICP 备案号:备案通过后填写,页脚会自动展示(留空则不显示)
   icp: '',
   // 动态服务入口(HK 轻量服务器),前端调用统一走这个前缀
