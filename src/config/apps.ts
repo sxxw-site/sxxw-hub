@@ -20,9 +20,10 @@ export interface Product {
   platforms: string[];
   accent: string;
   live: boolean;
-  links: { appStore?: string; support?: string; privacy?: string };
+  links: { appStore?: string };
   icon: string;
   screenshots: string[];
+  support: { md: string };
   legal: { privacy: LegalDoc; terms: LegalDoc };
 }
 

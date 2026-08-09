@@ -52,16 +52,12 @@ export default function AppPage() {
                   App Store 下载 →
                 </a>
               )}
-              {app.links.support && (
-                <a
-                  className="mod-btn mod-btn-ghost"
-                  href={app.links.support}
-                  target="_blank"
-                  rel="noopener"
-                >
-                  技术支持
-                </a>
-              )}
+              <Link
+                className="mod-btn mod-btn-ghost"
+                to={`/${app.slug}/support`}
+              >
+                技术支持
+              </Link>
             </div>
           </div>
         </div>

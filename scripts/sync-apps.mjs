@@ -86,6 +86,7 @@ for (const { slug, dir } of MANIFEST) {
     links: p.links ?? {},
     icon: iconWeb,
     screenshots: shotsWeb,
+    support: { md: readMd('support.md') },
     legal: {
       privacy: {
         updated: p.legal?.privacy?.updated ?? '',

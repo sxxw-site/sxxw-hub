@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import HomePage from '@/pages/HomePage';
 import AppPage from '@/pages/AppPage';
+import SupportPage from '@/pages/SupportPage';
 import LegalPage from '@/pages/LegalPage';
 import NotFoundPage from '@/pages/NotFoundPage';
 
@@ -11,6 +12,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/:app" element={<AppPage />} />
+      <Route path="/:app/support" element={<SupportPage />} />
       <Route path="/:app/legal/:doc" element={<LegalPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>

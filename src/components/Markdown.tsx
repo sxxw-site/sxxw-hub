@@ -33,6 +33,10 @@ export default function Markdown({ text }: { text: string }) {
     if (!line.trim()) {
       flushPara();
       flushList();
+    } else if (line.startsWith('### ')) {
+      flushPara();
+      flushList();
+      blocks.push(<h3 key={key++}>{line.slice(4)}</h3>);
     } else if (line.startsWith('## ')) {
       flushPara();
       flushList();
