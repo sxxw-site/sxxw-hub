@@ -46,13 +46,14 @@ npm run typecheck    # 类型检查
 npm run build        # 构建
 ```
 
-服务端:
+服务端(**仅本地自检**,不进 CI):
 
 ```bash
 cd server && make check   # gofmt + vet + build
 ```
 
-以上正是 CI(`.github/workflows/ci.yml`)会跑的检查,PR 需全绿方可合并。
+前端检查由 CI(`.github/workflows/ci.yml`)在 PR 上自动跑,需全绿方可合并。
+Go 服务不纳入 GitHub Actions —— 它手动部署到自有服务器,提交前请自行 `make check`。
 
 ## PR 流程
 

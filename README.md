@@ -69,7 +69,8 @@ npm run format       # Prettier 格式化
 ```
 
 协作规范(分支、提交约定、PR、提交前自检)见 [CONTRIBUTING.md](CONTRIBUTING.md)。
-CI(`.github/workflows/ci.yml`)会在 PR 上自动跑前端 lint/typecheck/build 与 Go 的 gofmt/vet/build。
+CI(`.github/workflows/ci.yml`)会在 PR 上自动跑**前端** lint/typecheck/build。
+GitHub Actions 只负责 GitHub Pages(见 `deploy.yml`);Go 服务手动部署到自有服务器,不进 CI。
 
 ## 部署
 
