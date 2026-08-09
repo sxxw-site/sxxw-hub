@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import { useT } from '@/i18n/strings';
+import { useTitle } from '@/i18n/useTitle';
 
 export default function NotFoundPage() {
   const t = useT();
+  useTitle(t('not_found'));
   return (
     <div
       style={{

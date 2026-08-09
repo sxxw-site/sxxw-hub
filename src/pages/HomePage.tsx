@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { APPS, SITE, asset, companyName, localize } from '@/config/apps';
 import { useLang } from '@/i18n/lang';
 import { useT } from '@/i18n/strings';
+import { useTitle } from '@/i18n/useTitle';
 import SiteHeader from '@/components/SiteHeader';
 import SiteFooter from '@/components/SiteFooter';
 import '@/styles/site.css';
@@ -9,6 +10,7 @@ import '@/styles/site.css';
 export default function HomePage() {
   const { lang } = useLang();
   const t = useT();
+  useTitle();
   const brandLabel = lang === 'en' ? SITE.brandEn : SITE.brand;
 
   return (

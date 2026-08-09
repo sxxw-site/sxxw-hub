@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import { getApp, asset, localize } from '@/config/apps';
 import { useLang } from '@/i18n/lang';
 import { useT } from '@/i18n/strings';
+import { useTitle } from '@/i18n/useTitle';
 import Layout from '@/components/Layout';
 import NotFoundPage from './NotFoundPage';
 
@@ -10,6 +11,7 @@ export default function AppPage() {
   const { lang } = useLang();
   const t = useT();
   const app = slug ? getApp(slug) : undefined;
+  useTitle(app ? app.name : t('not_found'));
   if (!app) return <NotFoundPage />;
   const c = localize(app, lang);
 

@@ -4,6 +4,7 @@ import type { Product } from '@/config/apps';
 import { asset } from '@/config/apps';
 import { useLang } from '@/i18n/lang';
 import { useT } from '@/i18n/strings';
+import { useTitle } from '@/i18n/useTitle';
 import Layout from './Layout';
 import Markdown from './Markdown';
 
@@ -22,6 +23,7 @@ export default function DocPage({
 }) {
   const { lang } = useLang();
   const t = useT();
+  useTitle(`${title} · ${app.name}`);
   const [md, setMd] = useState<string | null>(null);
 
   useEffect(() => {
