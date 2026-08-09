@@ -18,10 +18,12 @@ function spaFallback(): Plugin {
   };
 }
 
-// 自定义域名 www.sxxw.site 时 base 保持 '/';
-// 若临时挂 <user>.github.io/sxxw-hub 子路径,把 base 改成 '/sxxw-hub/'。
+// base 说明:
+// - 当前部署在项目页 https://sxxw-site.github.io/sxxw-hub/(子路径),必须为 '/sxxw-hub/',
+//   否则 /assets/... 会 404 导致白屏。
+// - 备案完成、绑定自定义域名 www.sxxw.site(根路径)后,改回 '/'。
 export default defineConfig({
-  base: '/',
+  base: '/sxxw-hub/',
   plugins: [react(), spaFallback()],
   resolve: {
     alias: {
