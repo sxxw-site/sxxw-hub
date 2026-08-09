@@ -1,0 +1,6 @@
+.env
+data/
+*.log
+# Go 编译产物
+sxxw-server
+/dist/

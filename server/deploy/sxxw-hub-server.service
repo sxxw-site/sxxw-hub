@@ -1,0 +1,27 @@
+# systemd 服务单元:开机自启 + 崩溃重启。
+# 安装:
+#   sudo cp deploy/sxxw-hub-server.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now sxxw-hub-server
+# 查看日志:journalctl -u sxxw-hub-server -f
+
+[Unit]
+Description=sxxw-hub server
+After=network.target
+
+[Service]
+Type=simple
+# 编译好的二进制路径(见 README 的部署步骤)
+ExecStart=/opt/sxxw-hub/server/sxxw-server
+WorkingDirectory=/opt/sxxw-hub/server
+Environment=PORT=8787
+Environment=ALLOW_ORIGINS=https://www.sxxw.site,https://sxxw.site
+Environment=DATA_DIR=/var/lib/sxxw-hub/data
+Restart=always
+RestartSec=3
+# 基础加固
+NoNewPrivileges=true
+ProtectSystem=full
+
+[Install]
+WantedBy=multi-user.target
