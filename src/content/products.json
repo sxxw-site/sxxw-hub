@@ -17,6 +17,14 @@
       "apps/memoria/shot-04.png",
       "apps/memoria/shot-05.png"
     ],
+    "legal": {
+      "privacy": {
+        "updated": "2026-08-07"
+      },
+      "terms": {
+        "updated": "2026-08-09"
+      }
+    },
     "locales": {
       "zh": {
         "tagline": "记录生日、纪念日与重要日子，让时间被温柔看见",
@@ -46,20 +54,7 @@
             "title": "小组件与 Apple Watch",
             "desc": "桌面/锁屏小组件与 Watch 随时一瞥，iCloud 私密同步"
           }
-        ],
-        "support": {
-          "md": "# Memoria 技术支持\n\nMemoria — 纪念日 · 生日 · 倒数。遇到问题或有建议，欢迎联系我们。\n\n## 联系方式\n有任何问题、建议或反馈，欢迎邮件联系：neverfall@foxmail.com，我们会尽快回复。\n\n## 常见问题\n\n### 数据会同步到其他设备吗？\n会。登录 iCloud 并开启同步后，数据会通过你的 iCloud 私有库在 iPhone / iPad / Apple Watch 之间自动同步。\n\n### 我的数据安全吗？\n安全。应用无账号、无服务器、无广告与追踪，数据仅在你的设备与个人 iCloud 中，开发者无法访问。详见本站隐私政策。\n\n### 支持农历吗？\n支持。生日与纪念日均可选择农历，自动推算下一次公历日期。\n"
-        },
-        "legal": {
-          "privacy": {
-            "updated": "2026-08-07",
-            "md": "# Memoria 隐私政策\n\n生效日期：2026 年 8 月 7 日\n\nMemoria（以下简称“本应用”）是一款用于记录生日、纪念日与重要日子的工具。我们高度重视你的隐私。本应用不设账号、不设服务器，也不会收集或上传你的任何个人信息到我们这里。\n\n## 一、我们收集哪些信息\n我们不收集任何个人信息。你在本应用中创建的内容（如姓名、日期、备注、颜色等）仅保存在你的设备本地。\n\n## 二、iCloud 同步\n如果你登录了 iCloud 并开启同步，你的数据会通过 Apple 的 CloudKit 私有数据库在你自己的 iPhone、iPad、Apple Watch 之间同步。这些数据存储在你个人的 iCloud 账户中，受 Apple 的隐私政策保护，开发者无法访问、读取或获取这些内容。\n\n## 三、Face ID / 面容与密码\n如果你启用了应用锁，本应用会调用系统的本地身份验证（Face ID / Touch ID / 设备密码）来解锁。相关生物识别数据由系统在设备本地处理，本应用不会接触、存储或传输任何生物识别信息。\n\n## 四、通知提醒\n本应用使用本地通知在你设定的时间提醒纪念日，通知内容仅在你的设备上生成，不经过任何服务器。\n\n## 五、第三方与追踪\n本应用不包含任何广告、第三方分析、埋点或追踪 SDK，不会将数据分享给任何第三方。\n\n## 六、数据的保存与删除\n你的数据完全由你掌控。你可以随时在应用内编辑或删除记录；删除 iCloud 中的数据可在系统「设置 → iCloud」中管理。卸载应用即删除本地数据。\n\n## 七、儿童隐私\n本应用不面向 13 周岁以下儿童定向收集信息；由于我们本就不收集任何个人数据，因此适用于所有年龄的使用者。\n\n## 八、政策变更\n若本政策有更新，我们会在本页面发布最新版本并更新生效日期。\n\n## 九、联系我们\n如对隐私有任何疑问，请联系：neverfall@foxmail.com\n"
-          },
-          "terms": {
-            "updated": "2026-08-09",
-            "md": "# Memoria 用户协议\n\n更新日期：2026 年 8 月 9 日\n\n欢迎使用 Memoria（拾忆，以下简称“本应用”）。本应用由上海树下小屋网络科技有限公司（以下简称“我们”）开发与运营。本协议是您与我们之间就使用本应用及相关服务所订立的协议，请您在使用前认真阅读并充分理解各条款。您下载、安装、启动或使用本应用，即视为您已阅读并同意接受本协议全部内容；如您不同意，请停止使用并卸载本应用。\n\n## 一、协议范围与主体\n本协议由您与上海树下小屋网络科技有限公司共同缔结，适用于您对本应用及其功能、服务的全部使用行为。\n\n## 二、服务内容\n本应用为您提供生日、纪念日、倒数与人生进度记录、本地提醒、小组件与 Apple Watch 展示等功能。我们可能根据产品迭代对服务内容进行调整、升级或优化，并会以适当方式告知。\n\n## 三、账号与数据\n本应用无需注册账号即可使用其核心功能。若您开启 iCloud 同步，相关服务由 Apple 提供并受其条款约束；您的数据存储于您个人的设备与 iCloud 私有库中，请您妥善保管您的设备与账户。\n\n## 四、用户行为规范\n您承诺合法、正当地使用本应用，不得利用本应用从事任何违反法律法规或侵害他人合法权益的行为，包括但不限于破解、逆向、篡改本应用，干扰或破坏本应用的正常运行，或利用本应用制作、传播违法或不良信息。\n\n## 五、知识产权\n本应用及其相关软件、界面、文字、图标等内容的知识产权，均归我们或相关权利人所有。未经许可，您不得擅自复制、修改、传播或用于商业用途。\n\n## 六、费用\n本应用的收费方式（免费/内购/订阅）以 App Store 展示为准。如涉及内购或订阅，相关交易由 Apple 处理，退款等事宜适用 Apple 的相关政策。\n\n## 七、隐私保护\n我们重视您的隐私。关于个人信息的处理，请参见本应用的《隐私政策》，该政策为本协议不可分割的组成部分。\n\n## 八、免责声明与责任限制\n本应用按“现状”提供。在法律允许的范围内，我们不对因使用或无法使用本应用而导致的任何间接、偶然或后果性损失承担责任。您理解并同意，日期计算与提醒功能可能受设备、系统或环境因素影响而存在偏差，相关信息仅供参考。\n\n## 九、协议的变更、中止与终止\n我们可能根据法律法规或业务需要修订本协议，修订后的协议一经公布即生效。若您继续使用本应用，视为接受修订后的协议。您可随时停止使用并卸载本应用以终止本协议。\n\n## 十、适用法律与争议解决\n本协议的订立、执行与解释均适用中华人民共和国法律。因本协议产生的争议，双方应友好协商解决；协商不成的，任一方可向我们所在地有管辖权的人民法院提起诉讼。\n\n## 十一、联系我们\n如对本协议有任何疑问，请联系：house@sxxw.site\n上海树下小屋网络科技有限公司\n"
-          }
-        }
+        ]
       },
       "en": {
         "tagline": "Record birthdays, anniversaries, and the days that matter, so time is seen with tenderness",
@@ -89,20 +84,307 @@
             "title": "Widgets and Apple Watch",
             "desc": "Home Screen and Lock Screen widgets plus a quick glance on your Watch, with private iCloud sync"
           }
-        ],
-        "support": {
-          "md": "# Memoria Support\n\nMemoria — Anniversaries · Birthdays · Countdowns. If you run into any problems or have suggestions, we'd love to hear from you.\n\n## Contact\nFor any questions, suggestions, or feedback, feel free to email us at: neverfall@foxmail.com, and we'll reply as soon as we can.\n\n## Frequently Asked Questions\n\n### Will my data sync to other devices?\nYes. Once you sign in to iCloud and enable sync, your data automatically syncs across iPhone / iPad / Apple Watch through your private iCloud library.\n\n### Is my data secure?\nYes. The App has no accounts, no servers, and no ads or tracking. Your data stays only on your device and in your personal iCloud, and the developer cannot access it. See the Privacy Policy on this site for details.\n\n### Does it support the lunar calendar?\nYes. Both birthdays and anniversaries can use the lunar calendar, which automatically calculates the next Gregorian date.\n"
-        },
-        "legal": {
-          "privacy": {
-            "updated": "2026-08-07",
-            "md": "# Memoria Privacy Policy\n\nEffective date: August 7, 2026\n\nMemoria (hereinafter the \"App\") is a tool for recording birthdays, anniversaries, and important days. We take your privacy very seriously. The App has no accounts and no servers, and it does not collect or upload any of your personal information to us.\n\n## 1. What Information We Collect\nWe do not collect any personal information. The content you create in the App (such as names, dates, notes, and colors) is stored only locally on your device.\n\n## 2. iCloud Sync\nIf you are signed in to iCloud and have enabled sync, your data is synced across your own iPhone, iPad, and Apple Watch through Apple's CloudKit private database. This data is stored in your personal iCloud account, protected by Apple's privacy policy, and the developer cannot access, read, or obtain any of it.\n\n## 3. Face ID and Passcode\nIf you enable the app lock, the App uses the system's local authentication (Face ID / Touch ID / device passcode) to unlock. The related biometric data is processed locally on your device by the system; the App never accesses, stores, or transmits any biometric information.\n\n## 4. Notifications and Reminders\nThe App uses local notifications to remind you of anniversaries at the times you set. Notification content is generated only on your device and does not pass through any server.\n\n## 5. Third Parties and Tracking\nThe App contains no advertising, third-party analytics, event tracking, or tracking SDKs, and does not share data with any third party.\n\n## 6. Data Retention and Deletion\nYour data is entirely under your control. You can edit or delete records within the App at any time; to delete data in iCloud, manage it under \"Settings → iCloud\" on your device. Uninstalling the App deletes the local data.\n\n## 7. Children's Privacy\nThe App does not target children under the age of 13 for information collection; because we do not collect any personal data at all, it is suitable for users of all ages.\n\n## 8. Changes to This Policy\nIf this policy is updated, we will publish the latest version on this page and update the effective date.\n\n## 9. Contact Us\nIf you have any questions about privacy, please contact: neverfall@foxmail.com\n"
+        ]
+      },
+      "es": {
+        "tagline": "Registra cumpleaños, aniversarios y los días que importan, para que el tiempo se vea con ternura",
+        "description": "Memoria es una app de aniversarios y cuentas regresivas hecha para los días que importan. Los cumpleaños, aniversarios, hitos de relación, festividades y tu propio progreso de vida se guardan aquí, con delicadeza. Haz una cuenta regresiva para ver cuántos días quedan, y una cuenta progresiva para conservar cuántos días han pasado. Sin cuenta, sin anuncios, sin rastreo de terceros. Tus datos residen únicamente en tu dispositivo y en tu biblioteca privada de iCloud.",
+        "features": [
+          {
+            "title": "Todo tipo de ocasiones",
+            "desc": "Cumpleaños, aniversarios de relación, días señalados, festividades y eventos personalizados, todo en un solo lugar"
           },
-          "terms": {
-            "updated": "2026-08-09",
-            "md": "# Memoria Terms of Service\n\nLast updated: August 9, 2026\n\nWelcome to Memoria (hereinafter the \"App\"). The App is developed and operated by Shanghai Shuxia Xiaowu Network Technology Co., Ltd. (hereinafter \"we\" or \"us\"). These Terms constitute an agreement between you and us regarding your use of the App and related services. Please read and fully understand all provisions carefully before use. By downloading, installing, launching, or using the App, you are deemed to have read and agreed to accept all of these Terms; if you do not agree, please stop using the App and uninstall it.\n\n## 1. Scope and Parties\nThese Terms are entered into between you and Shanghai Shuxia Xiaowu Network Technology Co., Ltd., and apply to all of your use of the App and its features and services.\n\n## 2. Services\nThe App provides features such as recording birthdays, anniversaries, countdowns, and life progress, along with local reminders, widgets, and Apple Watch display. We may adjust, upgrade, or optimize the services in line with product iterations, and will notify you in an appropriate manner.\n\n## 3. Accounts and Data\nYou can use the App's core features without registering an account. If you enable iCloud sync, the related service is provided by Apple and subject to its terms; your data is stored on your personal device and in your private iCloud library, so please keep your device and account secure.\n\n## 4. Code of Conduct\nYou undertake to use the App lawfully and properly, and not to use the App to engage in any activity that violates laws and regulations or infringes upon the lawful rights and interests of others, including but not limited to cracking, reverse-engineering, or tampering with the App, interfering with or disrupting the normal operation of the App, or using the App to create or disseminate illegal or objectionable information.\n\n## 5. Intellectual Property\nThe intellectual property rights in the App and its related software, interface, text, icons, and other content belong to us or the respective rights holders. Without permission, you may not copy, modify, distribute, or use them for commercial purposes.\n\n## 6. Fees\nThe App's pricing model (free / in-app purchase / subscription) is as shown in the App Store. Where in-app purchases or subscriptions are involved, the relevant transactions are handled by Apple, and matters such as refunds are subject to Apple's applicable policies.\n\n## 7. Privacy Protection\nWe value your privacy. For the handling of personal information, please refer to the App's Privacy Policy, which is an integral part of these Terms.\n\n## 8. Disclaimers and Limitation of Liability\nThe App is provided \"as is.\" To the extent permitted by law, we are not liable for any indirect, incidental, or consequential losses arising from your use of or inability to use the App. You understand and agree that the date calculation and reminder features may be affected by device, system, or environmental factors and may contain deviations, and that the relevant information is for reference only.\n\n## 9. Changes, Suspension, and Termination\nWe may revise these Terms in accordance with laws and regulations or business needs, and the revised Terms take effect once published. If you continue to use the App, you are deemed to accept the revised Terms. You may stop using and uninstall the App at any time to terminate these Terms.\n\n## 10. Governing Law and Dispute Resolution\nThe conclusion, execution, and interpretation of these Terms are governed by the laws of the People's Republic of China. Any dispute arising from these Terms shall be resolved through friendly negotiation between the parties; if negotiation fails, either party may bring a lawsuit before the people's court with jurisdiction at our location.\n\n## 11. Contact Us\nIf you have any questions about these Terms, please contact: house@sxxw.site\nShanghai Shuxia Xiaowu Network Technology Co., Ltd.\n"
+          {
+            "title": "Calendarios gregoriano y lunar",
+            "desc": "Los cumpleaños lunares calculan automáticamente la siguiente fecha gregoriana"
+          },
+          {
+            "title": "Cuenta regresiva y progresiva",
+            "desc": "Ve de un vistazo cuántos días quedan o cuántos días han pasado"
+          },
+          {
+            "title": "Progreso de vida",
+            "desc": "Sigue el progreso del año y tu cuenta regresiva de vida, y siente el peso del tiempo"
+          },
+          {
+            "title": "Recordatorios cuidados",
+            "desc": "Notificaciones locales el mismo día y con varios tiempos de antelación, para que nunca te pierdas lo que importa"
+          },
+          {
+            "title": "Widgets y Apple Watch",
+            "desc": "Widgets de la pantalla de inicio y de bloqueo, además de un vistazo rápido en tu Watch, con sincronización privada de iCloud"
           }
-        }
+        ]
+      },
+      "fr": {
+        "tagline": "Enregistrez les anniversaires, les dates commémoratives et les jours qui comptent, pour que le temps soit vu avec tendresse",
+        "description": "Memoria est une application de dates commémoratives et de comptes à rebours conçue pour les jours qui comptent. Anniversaires, dates commémoratives, étapes de couple, fêtes et votre propre progression de vie personnelle sont tous conservés ici, avec délicatesse. Faites un compte à rebours pour voir combien de jours il reste, et un décompte croissant pour retenir combien de jours se sont écoulés. Pas de compte, pas de publicité, pas de suivi tiers. Vos données ne résident que sur votre appareil et dans votre bibliothèque iCloud privée.",
+        "features": [
+          {
+            "title": "Toutes sortes d'occasions",
+            "desc": "Anniversaires, dates commémoratives de couple, jours marquants, fêtes et événements personnalisés, tous au même endroit"
+          },
+          {
+            "title": "Calendriers grégorien et lunaire",
+            "desc": "Les anniversaires lunaires calculent automatiquement la prochaine date grégorienne"
+          },
+          {
+            "title": "Compte à rebours et décompte croissant",
+            "desc": "Voyez d'un coup d'œil combien de jours il reste ou combien de jours se sont écoulés"
+          },
+          {
+            "title": "Progression de vie",
+            "desc": "Suivez la progression de l'année et votre compte à rebours de vie, et ressentez le poids du temps"
+          },
+          {
+            "title": "Rappels attentionnés",
+            "desc": "Notifications locales le jour même et à plusieurs échéances anticipées, pour ne jamais manquer ce qui compte"
+          },
+          {
+            "title": "Widgets et Apple Watch",
+            "desc": "Widgets sur l'écran d'accueil et l'écran verrouillé ainsi qu'un aperçu rapide sur votre Watch, avec synchronisation iCloud privée"
+          }
+        ]
+      },
+      "de": {
+        "tagline": "Halten Sie Geburtstage, Jahrestage und die Tage fest, die zählen, damit die Zeit mit Zärtlichkeit gesehen wird",
+        "description": "Memoria ist eine App für Jahrestage und Countdowns, gemacht für die Tage, die zählen. Geburtstage, Jahrestage, Meilensteine von Beziehungen, Feiertage und Ihr eigener persönlicher Lebensfortschritt werden hier behutsam bewahrt. Zählen Sie herunter, um zu sehen, wie viele Tage noch bleiben, und zählen Sie hoch, um festzuhalten, wie viele Tage vergangen sind. Kein Konto, keine Werbung, kein Tracking durch Dritte. Ihre Daten leben ausschließlich auf Ihrem Gerät und in Ihrer privaten iCloud-Bibliothek.",
+        "features": [
+          {
+            "title": "Jeder Anlass",
+            "desc": "Geburtstage, Beziehungsjahrestage, Meilenstein-Tage, Feiertage und benutzerdefinierte Ereignisse an einem Ort"
+          },
+          {
+            "title": "Gregorianischer und Mondkalender",
+            "desc": "Mondkalender-Geburtstage berechnen automatisch das nächste gregorianische Datum"
+          },
+          {
+            "title": "Countdown und Aufwärtszählung",
+            "desc": "Sehen Sie auf einen Blick, wie viele Tage noch bleiben oder wie viele Tage vergangen sind"
+          },
+          {
+            "title": "Lebensfortschritt",
+            "desc": "Verfolgen Sie den Fortschritt des Jahres und Ihren Lebens-Countdown und spüren Sie das Gewicht der Zeit"
+          },
+          {
+            "title": "Durchdachte Erinnerungen",
+            "desc": "Lokale Benachrichtigungen am Tag selbst und zu mehreren Vorlaufzeiten, damit Sie nie verpassen, was zählt"
+          },
+          {
+            "title": "Widgets und Apple Watch",
+            "desc": "Home-Bildschirm- und Sperrbildschirm-Widgets sowie ein schneller Blick auf Ihre Watch, mit privater iCloud-Synchronisierung"
+          }
+        ]
+      },
+      "ja": {
+        "tagline": "誕生日、記念日、そして大切な日を記録し、時間をやさしく見つめる",
+        "description": "Memoria は、大切な日のために作られた記念日・カウントダウンアプリです。誕生日、記念日、恋愛のマイルストーン、祝日、そしてあなた自身の人生の進捗まで、すべてをここにやさしく残せます。カウントダウンで「あと何日」を見つめ、カウントアップで「もう何日経ったか」を留めておきましょう。アカウントなし、広告なし、第三者トラッキングなし。あなたのデータはお使いのデバイスとプライベートな iCloud ライブラリにのみ保存されます。",
+        "features": [
+          {
+            "title": "あらゆる記念日に対応",
+            "desc": "誕生日、恋愛記念日、節目の日、祝日、カスタムイベントをひとつにまとめて管理"
+          },
+          {
+            "title": "西暦と旧暦（太陰暦）",
+            "desc": "旧暦の誕生日は、次回の西暦の日付を自動的に計算"
+          },
+          {
+            "title": "カウントダウンとカウントアップ",
+            "desc": "あと何日、もう何日経ったかをひと目で確認"
+          },
+          {
+            "title": "人生の進捗",
+            "desc": "その年の進捗や人生のカウントダウンを追い、時間の重みを感じる"
+          },
+          {
+            "title": "きめ細やかなリマインダー",
+            "desc": "当日および複数の事前タイミングでのローカル通知で、大切な日を見逃さない"
+          },
+          {
+            "title": "ウィジェットと Apple Watch",
+            "desc": "ホーム画面とロック画面のウィジェットに加え、Watch でのひと目の確認。プライベートな iCloud 同期に対応"
+          }
+        ]
+      },
+      "ko": {
+        "tagline": "생일, 기념일, 그리고 소중한 날들을 기록하여 시간이 따스하게 보이도록 합니다",
+        "description": "Memoria는 소중한 날들을 위해 만들어진 기념일 및 카운트다운 앱입니다. 생일, 기념일, 연애 이정표, 명절, 그리고 여러분만의 개인적인 인생 진행률까지 모두 이곳에 따스하게 보관됩니다. 카운트다운으로 며칠이 남았는지 보고, 카운트업으로 며칠이 지났는지 간직하세요. 계정도, 광고도, 제3자 추적도 없습니다. 여러분의 데이터는 오직 여러분의 기기와 개인 iCloud 라이브러리에만 저장됩니다.",
+        "features": [
+          {
+            "title": "모든 종류의 기념일",
+            "desc": "생일, 연애 기념일, 이정표가 되는 날, 명절, 사용자 지정 이벤트를 한곳에 모두"
+          },
+          {
+            "title": "양력과 음력",
+            "desc": "음력 생일이 다음 양력 날짜를 자동으로 계산합니다"
+          },
+          {
+            "title": "카운트다운과 카운트업",
+            "desc": "며칠이 남았는지 또는 며칠이 지났는지 한눈에 확인"
+          },
+          {
+            "title": "인생 진행률",
+            "desc": "한 해의 진행률과 인생 카운트다운을 추적하며 시간의 무게를 느껴 보세요"
+          },
+          {
+            "title": "세심한 리마인더",
+            "desc": "당일과 여러 사전 시점에 로컬 알림을 제공하여 소중한 것을 놓치지 않습니다"
+          },
+          {
+            "title": "위젯과 Apple Watch",
+            "desc": "홈 화면 및 잠금 화면 위젯과 Watch에서의 빠른 확인, 그리고 개인 iCloud 동기화"
+          }
+        ]
+      },
+      "pt": {
+        "tagline": "Registre aniversários, datas comemorativas e os dias que importam, para que o tempo seja visto com ternura",
+        "description": "O Memoria é um app de datas comemorativas e contagem regressiva feito para os dias que importam. Aniversários, datas comemorativas, marcos de relacionamento, feriados e o seu próprio progresso de vida pessoal são todos guardados aqui, com carinho. Faça a contagem regressiva para ver quantos dias faltam, e a contagem progressiva para guardar quantos dias já se passaram. Sem conta, sem anúncios, sem rastreamento de terceiros. Seus dados vivem apenas no seu dispositivo e na sua biblioteca privada do iCloud.",
+        "features": [
+          {
+            "title": "Todo Tipo de Ocasião",
+            "desc": "Aniversários, datas comemorativas de relacionamento, dias que são marcos, feriados e eventos personalizados, tudo em um só lugar"
+          },
+          {
+            "title": "Calendários Gregoriano e Lunar",
+            "desc": "Aniversários no calendário lunar calculam automaticamente a próxima data gregoriana"
+          },
+          {
+            "title": "Contagem Regressiva e Progressiva",
+            "desc": "Veja quantos dias faltam ou quantos dias já se passaram num relance"
+          },
+          {
+            "title": "Progresso de Vida",
+            "desc": "Acompanhe o progresso do ano e a contagem regressiva da sua vida, e sinta o peso do tempo"
+          },
+          {
+            "title": "Lembretes Cuidadosos",
+            "desc": "Notificações locais no dia e em diversos prazos de antecedência, para que você nunca perca o que importa"
+          },
+          {
+            "title": "Widgets e Apple Watch",
+            "desc": "Widgets na Tela de Início e na Tela Bloqueada, além de uma olhada rápida no seu Watch, com sincronização privada do iCloud"
+          }
+        ]
+      },
+      "ru": {
+        "tagline": "Записывайте дни рождения, годовщины и важные дни, чтобы время было видно с нежностью",
+        "description": "Memoria — это приложение для годовщин и обратного отсчёта, созданное для дней, которые имеют значение. Дни рождения, годовщины, вехи отношений, праздники и ваш собственный жизненный прогресс — всё бережно хранится здесь. Ведите обратный отсчёт, чтобы видеть, сколько дней осталось, и прямой отсчёт, чтобы сохранить, сколько дней прошло. Никаких учётных записей, рекламы или стороннего отслеживания. Ваши данные живут только на вашем устройстве и в вашей частной библиотеке iCloud.",
+        "features": [
+          {
+            "title": "Любой повод",
+            "desc": "Дни рождения, годовщины отношений, знаменательные дни, праздники и пользовательские события — всё в одном месте"
+          },
+          {
+            "title": "Григорианский и лунный календари",
+            "desc": "Лунные дни рождения автоматически вычисляют следующую григорианскую дату"
+          },
+          {
+            "title": "Обратный и прямой отсчёт",
+            "desc": "Смотрите, сколько дней осталось или сколько дней прошло, с первого взгляда"
+          },
+          {
+            "title": "Жизненный прогресс",
+            "desc": "Отслеживайте прогресс года и обратный отсчёт вашей жизни и ощущайте вес времени"
+          },
+          {
+            "title": "Заботливые напоминания",
+            "desc": "Локальные уведомления в сам день и за несколько сроков заранее, чтобы вы никогда не пропустили важное"
+          },
+          {
+            "title": "Виджеты и Apple Watch",
+            "desc": "Виджеты на экране «Домой» и экране блокировки, а также быстрый взгляд на ваших Watch, с частной синхронизацией iCloud"
+          }
+        ]
+      },
+      "ar": {
+        "tagline": "سجّل أعياد الميلاد والذكرى السنوية والأيام التي تهمّك، ليُرى الوقت بلطف",
+        "description": "Memoria تطبيق للذكرى السنوية والعدّ التنازلي صُمّم للأيام التي تهمّك. أعياد الميلاد، والذكرى السنوية، ومحطات العلاقات، والأعياد، وتقدّم حياتك الشخصية، كلها محفوظة هنا بلطف. عُدّ تنازليًا لترى كم يومًا تبقّى، وعُدّ تصاعديًا لتحتفظ بعدد الأيام التي مضت. بلا حساب، وبلا إعلانات، وبلا تتبّع من أطراف ثالثة. تعيش بياناتك على جهازك وفي مكتبة iCloud الخاصة بك فقط.",
+        "features": [
+          {
+            "title": "كل مناسبة على حِدة",
+            "desc": "أعياد الميلاد، والذكرى السنوية للعلاقات، والأيام المميزة، والأعياد، والأحداث المخصّصة، كلها في مكان واحد"
+          },
+          {
+            "title": "التقويمان الميلادي والقمري",
+            "desc": "أعياد الميلاد القمرية تحسب تلقائيًا التاريخ الميلادي التالي"
+          },
+          {
+            "title": "العدّ التنازلي والتصاعدي",
+            "desc": "شاهد كم يومًا تبقّى أو كم يومًا مضى في لمحة"
+          },
+          {
+            "title": "تقدّم الحياة",
+            "desc": "تتبّع تقدّم السنة والعدّ التنازلي لحياتك، واشعر بثقل الوقت"
+          },
+          {
+            "title": "تذكيرات مدروسة",
+            "desc": "إشعارات محلية في اليوم نفسه وعلى فترات تنبيه متعددة مسبقة، حتى لا تفوّت ما يهمّك"
+          },
+          {
+            "title": "الأدوات المصغّرة وApple Watch",
+            "desc": "أدوات مصغّرة للشاشة الرئيسية وشاشة القفل إضافةً إلى نظرة سريعة على ساعتك، مع مزامنة iCloud الخاصة"
+          }
+        ]
+      },
+      "hi": {
+        "tagline": "जन्मदिन, वर्षगाँठ और मायने रखने वाले दिनों को दर्ज करें, ताकि समय को कोमलता से देखा जा सके",
+        "description": "Memoria एक वर्षगाँठ और उलटी गिनती ऐप है जो उन दिनों के लिए बना है जो मायने रखते हैं। जन्मदिन, वर्षगाँठ, रिश्तों के पड़ाव, त्योहार, और आपकी अपनी व्यक्तिगत जीवन प्रगति, ये सब यहाँ कोमलता से सहेजे जाते हैं। यह देखने के लिए उलटी गिनती करें कि कितने दिन बाकी हैं, और यह याद रखने के लिए आगे की गिनती करें कि कितने दिन बीत चुके हैं। कोई खाता नहीं, कोई विज्ञापन नहीं, कोई तृतीय-पक्ष ट्रैकिंग नहीं। आपका डेटा केवल आपके डिवाइस और आपके निजी iCloud पुस्तकालय में रहता है।",
+        "features": [
+          {
+            "title": "हर तरह का अवसर",
+            "desc": "जन्मदिन, रिश्तों की वर्षगाँठ, पड़ाव के दिन, त्योहार और कस्टम इवेंट सब एक ही जगह"
+          },
+          {
+            "title": "ग्रेगोरियन और चंद्र कैलेंडर",
+            "desc": "चंद्र जन्मदिन स्वचालित रूप से अगली ग्रेगोरियन तिथि की गणना करते हैं"
+          },
+          {
+            "title": "उलटी गिनती और आगे की गिनती",
+            "desc": "एक नज़र में देखें कि कितने दिन बाकी हैं या कितने दिन बीत चुके हैं"
+          },
+          {
+            "title": "जीवन प्रगति",
+            "desc": "वर्ष की प्रगति और अपनी जीवन उलटी गिनती को ट्रैक करें, और समय का भार महसूस करें"
+          },
+          {
+            "title": "विचारशील अनुस्मारक",
+            "desc": "उस दिन और कई पूर्व-समयों पर स्थानीय सूचनाएँ, ताकि आप कभी मायने रखने वाली बात न चूकें"
+          },
+          {
+            "title": "विजेट और Apple Watch",
+            "desc": "होम स्क्रीन और लॉक स्क्रीन विजेट के साथ अपनी Watch पर एक त्वरित झलक, निजी iCloud सिंक के साथ"
+          }
+        ]
+      },
+      "it": {
+        "tagline": "Registra compleanni, anniversari e i giorni che contano, così che il tempo sia visto con tenerezza",
+        "description": "Memoria è un'app per anniversari e conti alla rovescia pensata per i giorni che contano. Compleanni, anniversari, traguardi di coppia, festività e il tuo personale progresso di vita sono conservati qui, con delicatezza. Fai il conto alla rovescia per vedere quanti giorni mancano, e conta in avanti per trattenere quanti giorni sono passati. Nessun account, nessuna pubblicità, nessun tracciamento di terze parti. I tuoi dati vivono solo sul tuo dispositivo e nella tua libreria iCloud privata.",
+        "features": [
+          {
+            "title": "Ogni tipo di occasione",
+            "desc": "Compleanni, anniversari di coppia, giorni memorabili, festività ed eventi personalizzati, tutto in un unico posto"
+          },
+          {
+            "title": "Calendario gregoriano e lunare",
+            "desc": "I compleanni lunari calcolano automaticamente la successiva data gregoriana"
+          },
+          {
+            "title": "Conto alla rovescia e conteggio in avanti",
+            "desc": "Vedi a colpo d'occhio quanti giorni mancano o quanti giorni sono passati"
+          },
+          {
+            "title": "Progresso di vita",
+            "desc": "Tieni traccia del progresso dell'anno e del conto alla rovescia della tua vita, e percepisci il peso del tempo"
+          },
+          {
+            "title": "Promemoria premurosi",
+            "desc": "Notifiche locali il giorno stesso e con vari anticipi, così da non perdere mai ciò che conta"
+          },
+          {
+            "title": "Widget e Apple Watch",
+            "desc": "Widget per la schermata Home e la schermata di blocco, oltre a uno sguardo rapido sul tuo Watch, con sincronizzazione iCloud privata"
+          }
+        ]
       }
     }
   },
@@ -125,6 +407,14 @@
       "apps/timetrails/shot-05.png",
       "apps/timetrails/shot-06.png"
     ],
+    "legal": {
+      "privacy": {
+        "updated": "2026-08-09"
+      },
+      "terms": {
+        "updated": "2026-08-09"
+      }
+    },
     "locales": {
       "zh": {
         "tagline": "记录生活轨迹，发现旅程之美",
@@ -154,20 +444,7 @@
             "title": "视觉呈现",
             "desc": "点、轨迹线与聚合模式，轻松展示海量数据"
           }
-        ],
-        "support": {
-          "md": "# 时光轨迹 技术支持\n\n遇到问题或有想法？先看看下面的常见问题，或直接联系我们——通常 1–2 个工作日内回复。\n\n## 联系方式\n最快的方式是发邮件，附上问题描述与设备信息。\n\n- 支持邮箱：neverfall@foxmail.com\n- App Store：可前往下载 / 评价\n- 测试版:可加入 TestFlight 参与体验\n\n## 常见问题\n\n### 时光轨迹会一直定位我吗？\n记录由你掌控，可随时暂停。App 使用系统定位在后台记录轨迹；数据默认只保存在本机，除非你主动开启 iCloud 备份。\n\n### 需要哪些权限？\n后台记录需要「定位（始终 + 精确）」；「运动与健身」用于更准确的步数与活动识别；「通知」用于提醒（可选）；仅当你导入照片时才需要「照片」权限。除定位外均为可选。\n\n### 定位没有被记录？\n- 设置 → 隐私与安全性 → 定位服务 → 时光轨迹 → 选择「始终」，并开启「精确位置」。\n- 为 App 开启「后台 App 刷新」。\n- 「低电量模式」可能暂停后台定位，建议关闭后重试。\n- 重启 iPhone，再打开一次时光轨迹。\n\n### 感觉比较耗电？\n- App 已使用智能采样；在信号良好、移动较少时功耗更低。\n- 保持系统与 App 为最新版本。\n- 长时间静止时会自动降低采样频率。\n\n### iCloud 备份如何工作？换机怎么恢复？\n开启后，轨迹会按天增量备份到你自己的 iCloud 私有空间（CloudKit）。换机或重装后本地为空时，App 会提示「从 iCloud 恢复」；也可在「iCloud 数据备份 → 数据同步」里手动「立即同步」，或用右上角「全量同步」确保云端与本机一致。前提：各设备登录同一 Apple ID、已开启 iCloud、网络正常，并在同步时保持 App 在前台。\n\n### 「删除」一个轨迹点会怎样？\n删除是「隐藏」而非物理抹除：被删的点不再显示、不计入统计与迷雾，并且这个隐藏状态会随 iCloud 同步到你的其它设备，删了不会再「复活」。\n\n### 如何彻底清除数据？\n可在 App 设置中清除本机数据。如已开启 iCloud 备份，请一并在「iCloud 数据备份」中删除云端备份；在其它登录同一 Apple ID 的设备上也需相应清理。\n\n## 反馈问题\n发邮件给我们，附上问题描述与设备信息会更有助于定位。反馈邮箱：neverfall@foxmail.com。隐私相关内容见本站隐私政策。\n"
-        },
-        "legal": {
-          "privacy": {
-            "updated": "2026-08-09",
-            "md": "# 时光轨迹 TimeTrails 隐私政策\n\n最后更新：2026 年 8 月 9 日 · 适用于 iOS 应用「时光轨迹 TimeTrails」\n\n你的轨迹，只属于你。\n\n## 概述\n时光轨迹是一款隐私优先的轨迹记录应用。我们的核心原则很简单：你的数据默认只保存在你自己的设备上。App 不需要注册账号，不接入广告，不使用第三方分析或追踪 SDK，也不会把你的数据出售或共享给任何第三方。\n\n## 我们收集哪些信息\n为实现轨迹记录与回顾，App 会在你授权后于本机收集与生成以下数据：\n\n- 位置信息：为在后台持续记录轨迹，需要“精确位置”和“始终”定位权限。位置数据用于绘制轨迹、点亮迷雾、统计里程等。\n- 运动与健身数据：如步数与活动类型，用于更准确地区分步行/骑行/驾车等，并完善每日统计。\n- 时间与时区：每个轨迹点记录采样时的时间与时区，用于按“当地时间”正确地分天与汇总。\n- 派生数据：由上述原始数据在本机计算得到的常去地点、停留时段、每日汇总、迷雾探索范围，以及你主动添加的轨迹备注等。\n- 照片（可选）：仅当你主动导入照片以关联轨迹时，才会访问相册。\n\nApp 不收集你的姓名、手机号、通讯录等身份信息，也不要求你创建账号。\n\n## 数据存储在哪里\n默认情况下，以上所有数据仅存储在你的设备本地（本机数据库），不会上传到我们的服务器——事实上，本 App 没有用于存放你个人数据的服务器。\n\n## iCloud 备份与同步（可选，默认关闭）\n你可以选择开启“iCloud 数据备份”。开启后：\n\n- 数据仅备份到你自己的 iCloud 私有数据库（Apple CloudKit Private Database），归属于你的 Apple ID。\n- 只有你本人（登录同一 Apple ID 的设备）可以访问这些数据；我们无法访问，数据也不经过我们的任何服务器。\n- 其作用是让你在换机或重装后恢复数据，或在你自己的多台设备间同步。\n- 你可以随时关闭该功能，或在 App 内删除云端备份。iCloud 的使用同时受 Apple 隐私政策约束。\n\n## 地名解析（反向地理编码）\n为把坐标显示为可读的地点名称，App 可能将相关坐标发送给 Apple 的地图/地理编码服务以获取地名。该过程由系统能力提供，受 Apple 隐私政策约束；我们不会因此保存或转发你的坐标到第三方。\n\n## 网络请求\nApp 可能发起少量与个人数据无关的网络请求，例如检查新版本。这些请求不包含你的轨迹或身份信息。\n\n## 我们不会做的事\n- 不投放广告、不接入广告 SDK。\n- 不使用第三方分析或用户行为追踪。\n- 不构建用户画像。\n- 不出售、不出租、不共享你的个人数据。\n\n## 权限说明\n- 定位：后台记录轨迹的核心权限（建议“始终 + 精确”）。\n- 运动与健身：用于步数统计与活动识别。\n- 通知：用于提醒等（可选）。\n- 照片：仅在你导入照片时使用（可选）。\n\n除定位外，其余权限均为可选；你可随时在系统“设置”中调整或撤销任意权限。\n\n## 你的控制权\n- 随时暂停或恢复轨迹记录。\n- “删除”某个轨迹点为隐藏处理：该点不再显示、不计入统计与迷雾，并会随 iCloud 同步到你的其它设备。\n- 可在 App 内清除本机数据；如开启了 iCloud 备份，可一并删除云端备份。\n- 可在系统“设置”中撤销任意权限。\n\n## 数据保留与删除\n数据会一直保留在你的设备（及你选择开启的 iCloud 私有空间）中，直到你删除它们或卸载 App。卸载 App 会移除本机数据；若曾开启 iCloud 备份，云端副本需由你在 App 内或通过 iCloud 另行删除。\n\n## 儿童隐私\n本 App 并非面向 13 周岁以下儿童设计，我们不会有意收集儿童的个人信息。\n\n## 政策变更\n如本政策有实质性更新，我们会更新本页顶部的“最后更新”日期，并在适当情况下于 App 内提示。\n\n## 联系我们\n如对本隐私政策或你的数据有任何疑问，欢迎联系：neverfall@foxmail.com。\n"
-          },
-          "terms": {
-            "updated": "2026-08-09",
-            "md": "# 时光轨迹 TimeTrails 用户协议\n\n更新日期：2026 年 8 月 9 日\n\n欢迎使用时光轨迹（TimeTrails，以下简称“本应用”）。本应用由上海树下小屋网络科技有限公司（以下简称“我们”）开发与运营。本协议是您与我们之间就使用本应用及相关服务所订立的协议，请您在使用前认真阅读并充分理解各条款。您下载、安装、启动或使用本应用，即视为您已阅读并同意接受本协议全部内容；如您不同意，请停止使用并卸载本应用。\n\n## 一、协议范围与主体\n本协议由您与上海树下小屋网络科技有限公司共同缔结，适用于您对本应用及其功能、服务的全部使用行为。\n\n## 二、服务内容\n本应用为您提供移动轨迹的记录、里程与活动统计、每日摘要与地图可视化等功能。我们可能根据产品迭代对服务内容进行调整、升级或优化，并会以适当方式告知。\n\n## 三、账号与数据\n本应用无需注册账号即可使用其核心功能。轨迹等数据默认仅存储在您的设备本地；若您开启 iCloud 备份，相关服务由 Apple 提供并受其条款约束。请您妥善保管您的设备与账户。\n\n## 四、用户行为规范\n您承诺合法、正当地使用本应用，不得利用本应用从事任何违反法律法规或侵害他人合法权益的行为，包括但不限于破解、逆向、篡改本应用，干扰或破坏本应用的正常运行，或利用本应用制作、传播违法或不良信息。您应对自身出行安全负责，切勿在驾驶或需要专注的情形下操作本应用。\n\n## 五、知识产权\n本应用及其相关软件、界面、文字、图标、地图样式等内容的知识产权，均归我们或相关权利人所有。未经许可，您不得擅自复制、修改、传播或用于商业用途。\n\n## 六、费用\n本应用的收费方式（免费/内购/订阅）以 App Store 展示为准。如涉及内购或订阅，相关交易由 Apple 处理，退款等事宜适用 Apple 的相关政策。\n\n## 七、隐私保护\n我们重视您的隐私。关于个人信息与位置数据的处理，请参见本应用的《隐私政策》，该政策为本协议不可分割的组成部分。\n\n## 八、免责声明与责任限制\n本应用按“现状”提供。在法律允许的范围内，我们不对因使用或无法使用本应用而导致的任何间接、偶然或后果性损失承担责任。您理解并同意，定位与轨迹记录可能受设备、系统、卫星信号或环境因素影响而存在偏差，相关数据仅供参考，不作为导航、测量或法律用途的依据。\n\n## 九、协议的变更、中止与终止\n我们可能根据法律法规或业务需要修订本协议，修订后的协议一经公布即生效。若您继续使用本应用，视为接受修订后的协议。您可随时停止使用并卸载本应用以终止本协议。\n\n## 十、适用法律与争议解决\n本协议的订立、执行与解释均适用中华人民共和国法律。因本协议产生的争议，双方应友好协商解决；协商不成的，任一方可向我们所在地有管辖权的人民法院提起诉讼。\n\n## 十一、联系我们\n如对本协议有任何疑问，请联系：house@sxxw.site\n上海树下小屋网络科技有限公司\n"
-          }
-        }
+        ]
       },
       "en": {
         "tagline": "Record your life's trails, discover the beauty of the journey",
@@ -197,20 +474,307 @@
             "title": "Rich Visualization",
             "desc": "Points, trail lines, and clustering make it easy to display huge amounts of data"
           }
-        ],
-        "support": {
-          "md": "# TimeTrails Support\n\nRunning into a problem or have an idea? Take a look at the FAQ below, or contact us directly — we usually reply within 1–2 business days.\n\n## How to Reach Us\nThe fastest way is by email, with a description of the issue and your device information.\n\n- Support email: neverfall@foxmail.com\n- App Store: Download / leave a review\n- Beta: Join our TestFlight to try it out\n\n## Frequently Asked Questions\n\n### Does TimeTrails track my location all the time?\nRecording is in your hands and can be paused anytime. The app uses the system's location services to record trails in the background; by default, data is saved only on your device unless you actively enable iCloud Backup.\n\n### What permissions are needed?\nBackground recording requires \"Location (Always + Precise)\"; \"Motion & Fitness\" is used for more accurate step counts and activity recognition; \"Notifications\" is used for reminders (optional); and \"Photos\" is only needed when you import photos. Everything except location is optional.\n\n### My location isn't being recorded?\n- Go to Settings → Privacy & Security → Location Services → TimeTrails → select \"Always,\" and turn on \"Precise Location.\"\n- Enable \"Background App Refresh\" for the app.\n- \"Low Power Mode\" may pause background location; try turning it off and retrying.\n- Restart your iPhone, then open TimeTrails again.\n\n### It seems to drain the battery?\n- The app already uses smart sampling; power usage is lower when the signal is good and you're moving less.\n- Keep your system and the app up to date.\n- When you stay still for a long time, the sampling frequency is automatically reduced.\n\n### How does iCloud Backup work? How do I restore after switching devices?\nOnce enabled, your trails are backed up incrementally by day to your own iCloud private space (CloudKit). After switching or reinstalling on a device, when local data is empty, the app will prompt you to \"Restore from iCloud\"; you can also manually \"Sync Now\" under \"iCloud Data Backup → Data Sync,\" or use \"Full Sync\" in the top-right corner to ensure the cloud and your device are consistent. Prerequisites: all devices are signed in to the same Apple ID, iCloud is enabled, the network is working, and the app is kept in the foreground during syncing.\n\n### What happens when I \"delete\" a trail point?\nDeleting is a \"hide\" rather than a physical erase: the deleted point is no longer displayed, is excluded from statistics and the fog map, and this hidden state syncs to your other devices via iCloud, so it won't \"come back\" after being deleted.\n\n### How do I completely clear my data?\nYou can clear on-device data in the app's settings. If iCloud Backup is enabled, please also delete the cloud backup under \"iCloud Data Backup\"; you'll need to clean up accordingly on other devices signed in to the same Apple ID as well.\n\n## Reporting Issues\nEmail us — including a description of the issue and your device information helps us pinpoint it. Feedback email: neverfall@foxmail.com. For privacy-related matters, see the Privacy Policy on this site.\n"
-        },
-        "legal": {
-          "privacy": {
-            "updated": "2026-08-09",
-            "md": "# TimeTrails Privacy Policy\n\nLast updated: August 9, 2026 · Applies to the iOS app \"TimeTrails\"\n\nYour trails belong to you alone.\n\n## Overview\nTimeTrails is a privacy-first trail recording app. Our core principle is simple: by default, your data stays only on your own device. The app requires no account, includes no ads, uses no third-party analytics or tracking SDKs, and will never sell or share your data with any third party.\n\n## What Information We Collect\nTo record and review your trails, the app collects and generates the following data on your device after you grant permission:\n\n- Location data: To continuously record your trails in the background, the app needs \"precise location\" and \"always\" location permissions. Location data is used to draw trails, reveal the fog map, calculate distance, and more.\n- Motion and fitness data: Such as step count and activity type, used to more accurately distinguish walking, cycling, driving, and so on, and to refine your daily statistics.\n- Time and time zone: Each trail point records the time and time zone at the moment of sampling, so days can be split and summarized correctly by \"local time.\"\n- Derived data: Frequently visited places, dwell periods, daily summaries, fog exploration areas, and any trail notes you add yourself, all computed on your device from the raw data above.\n- Photos (optional): The photo library is accessed only when you actively import photos to associate with a trail.\n\nThe app does not collect identifying information such as your name, phone number, or contacts, and it does not require you to create an account.\n\n## Where Your Data Is Stored\nBy default, all of the data above is stored only locally on your device (in an on-device database) and is not uploaded to our servers. In fact, this app has no server for storing your personal data.\n\n## iCloud Backup and Sync (Optional, Off by Default)\nYou can choose to enable \"iCloud Data Backup.\" Once enabled:\n\n- Your data is backed up only to your own iCloud private database (Apple CloudKit Private Database), tied to your Apple ID.\n- Only you (devices signed in to the same Apple ID) can access this data; we cannot access it, and the data never passes through any of our servers.\n- Its purpose is to let you restore your data after switching or reinstalling on a device, or to sync across your own multiple devices.\n- You can turn this feature off at any time, or delete the cloud backup within the app. Use of iCloud is also subject to Apple's Privacy Policy.\n\n## Place Name Resolution (Reverse Geocoding)\nTo display coordinates as readable place names, the app may send the relevant coordinates to Apple's map/geocoding services to obtain place names. This process is provided by the system and is subject to Apple's Privacy Policy; we do not thereby store or forward your coordinates to any third party.\n\n## Network Requests\nThe app may make a small number of network requests unrelated to your personal data, such as checking for new versions. These requests do not contain your trails or identifying information.\n\n## What We Will Not Do\n- No advertising and no ad SDKs.\n- No third-party analytics or user behavior tracking.\n- No building of user profiles.\n- No selling, renting, or sharing of your personal data.\n\n## Permissions Explained\n- Location: The core permission for recording trails in the background (\"Always + Precise\" recommended).\n- Motion and Fitness: Used for step counting and activity recognition.\n- Notifications: Used for reminders and the like (optional).\n- Photos: Used only when you import photos (optional).\n\nApart from location, all other permissions are optional; you can adjust or revoke any permission at any time in the system Settings.\n\n## Your Controls\n- Pause or resume trail recording at any time.\n- \"Deleting\" a trail point is a hide action: the point is no longer displayed, is excluded from statistics and the fog map, and this state syncs to your other devices via iCloud.\n- You can clear on-device data within the app; if iCloud Backup is enabled, you can delete the cloud backup as well.\n- You can revoke any permission in the system Settings.\n\n## Data Retention and Deletion\nYour data remains on your device (and in the iCloud private space you choose to enable) until you delete it or uninstall the app. Uninstalling the app removes the on-device data; if you previously enabled iCloud Backup, the cloud copy must be deleted separately by you, either within the app or through iCloud.\n\n## Children's Privacy\nThis app is not designed for children under 13, and we do not knowingly collect personal information from children.\n\n## Changes to This Policy\nIf this policy is materially updated, we will update the \"Last updated\" date at the top of this page and, where appropriate, notify you within the app.\n\n## Contact Us\nIf you have any questions about this Privacy Policy or your data, please contact us at neverfall@foxmail.com.\n"
+        ]
+      },
+      "es": {
+        "tagline": "Registra los recorridos de tu vida, descubre la belleza del viaje",
+        "description": "TimeTrails es una app dedicada a registrar y visualizar tu desplazamiento. Ya sea que te desplaces al trabajo, hagas ejercicio o salgas de aventura, captura tus rutas con precisión y les da vida en un mapa. De forma predeterminada, todos tus datos permanecen únicamente en tu dispositivo, sin cuenta, sin anuncios y sin rastreo de terceros, de modo que tu privacidad queda plenamente protegida.",
+        "features": [
+          {
+            "title": "Seguimiento inteligente",
+            "desc": "Ubicación en primer y segundo plano que equilibra automáticamente la precisión con la duración de la batería"
           },
-          "terms": {
-            "updated": "2026-08-09",
-            "md": "# TimeTrails Terms of Service\n\nLast updated: August 9, 2026\n\nWelcome to TimeTrails (hereinafter the \"App\"). The App is developed and operated by Shanghai Shuxia Xiaowu Network Technology Co., Ltd. (hereinafter \"we\" or \"us\"). These Terms constitute an agreement between you and us regarding your use of the App and related services. Please read and fully understand each clause carefully before use. By downloading, installing, launching, or using the App, you are deemed to have read and agreed to accept all of these Terms; if you do not agree, please stop using and uninstall the App.\n\n## 1. Scope and Parties\nThese Terms are entered into jointly by you and Shanghai Shuxia Xiaowu Network Technology Co., Ltd., and apply to all of your use of the App and its features and services.\n\n## 2. Service Content\nThe App provides features such as recording your movement, distance and activity statistics, daily summaries, and map visualization. We may adjust, upgrade, or optimize the service content as the product evolves, and will notify you in an appropriate manner.\n\n## 3. Accounts and Data\nThe App's core features can be used without registering an account. Data such as trails is stored only locally on your device by default; if you enable iCloud Backup, the related service is provided by Apple and subject to its terms. Please keep your device and account secure.\n\n## 4. Code of Conduct\nYou undertake to use the App lawfully and properly, and must not use the App to engage in any activity that violates laws and regulations or infringes the lawful rights and interests of others, including but not limited to cracking, reverse engineering, or tampering with the App, interfering with or disrupting its normal operation, or using it to create or spread illegal or harmful information. You are responsible for your own travel safety and must not operate the App while driving or in any situation requiring your full attention.\n\n## 5. Intellectual Property\nThe intellectual property rights in the App and its related software, interface, text, icons, map styles, and other content belong to us or the relevant rights holders. Without permission, you may not copy, modify, distribute, or use them for commercial purposes.\n\n## 6. Fees\nThe App's pricing model (free/in-app purchase/subscription) is as displayed in the App Store. Where in-app purchases or subscriptions are involved, the related transactions are handled by Apple, and matters such as refunds are governed by Apple's relevant policies.\n\n## 7. Privacy Protection\nWe value your privacy. For the handling of personal information and location data, please refer to the App's Privacy Policy, which is an integral part of these Terms.\n\n## 8. Disclaimer and Limitation of Liability\nThe App is provided \"as is.\" To the extent permitted by law, we are not liable for any indirect, incidental, or consequential losses arising from the use of, or inability to use, the App. You understand and agree that location and trail recording may deviate due to device, system, satellite signal, or environmental factors, and that such data is for reference only and shall not be used as a basis for navigation, measurement, or legal purposes.\n\n## 9. Changes, Suspension, and Termination\nWe may revise these Terms as required by laws and regulations or business needs, and the revised Terms take effect upon publication. If you continue to use the App, you are deemed to have accepted the revised Terms. You may terminate these Terms at any time by ceasing to use and uninstalling the App.\n\n## 10. Governing Law and Dispute Resolution\nThe formation, performance, and interpretation of these Terms are governed by the laws of the People's Republic of China. Any dispute arising from these Terms shall be resolved through friendly negotiation; if negotiation fails, either party may file a lawsuit with the competent people's court in the place where we are located.\n\n## 11. Contact Us\nIf you have any questions about these Terms, please contact us at: house@sxxw.site\nShanghai Shuxia Xiaowu Network Technology Co., Ltd.\n"
+          {
+            "title": "Múltiples modos",
+            "desc": "Compatibilidad total con caminar, correr, ir en bicicleta, conducir, hacer senderismo y volar"
+          },
+          {
+            "title": "Resúmenes diarios",
+            "desc": "Distancia, duración y rutas de actividad generadas automáticamente"
+          },
+          {
+            "title": "Sistemas de coordenadas duales",
+            "desc": "Compatible con WGS-84 y GCJ-02 para una alineación precisa en China continental"
+          },
+          {
+            "title": "Almacenamiento local",
+            "desc": "Los datos se guardan únicamente en tu dispositivo para proteger tu privacidad"
+          },
+          {
+            "title": "Visualización enriquecida",
+            "desc": "Puntos, líneas de recorrido y agrupación facilitan mostrar enormes cantidades de datos"
           }
-        }
+        ]
+      },
+      "fr": {
+        "tagline": "Enregistrez les trajets de votre vie, découvrez la beauté du voyage",
+        "description": "TimeTrails est une application dédiée à l'enregistrement et à la visualisation de vos déplacements. Que vous soyez en trajet quotidien, en séance d'entraînement ou parti à l'aventure, elle capture vos itinéraires avec précision et les fait vivre sur une carte. Par défaut, toutes vos données restent uniquement sur votre appareil, sans compte, sans publicité et sans suivi tiers, afin que votre vie privée soit pleinement protégée.",
+        "features": [
+          {
+            "title": "Suivi intelligent",
+            "desc": "Localisation au premier plan et en arrière-plan qui équilibre automatiquement précision et autonomie de la batterie"
+          },
+          {
+            "title": "Modes multiples",
+            "desc": "Prise en charge complète de la marche, la course, le vélo, la conduite, la randonnée et le vol"
+          },
+          {
+            "title": "Résumés quotidiens",
+            "desc": "Distance, durée et itinéraires d'activité générés automatiquement"
+          },
+          {
+            "title": "Systèmes de coordonnées doubles",
+            "desc": "Prend en charge WGS-84 et GCJ-02 pour un alignement précis en Chine continentale"
+          },
+          {
+            "title": "Stockage local",
+            "desc": "Les données sont conservées uniquement sur votre appareil pour protéger votre vie privée"
+          },
+          {
+            "title": "Visualisation riche",
+            "desc": "Points, lignes de trajet et regroupement facilitent l'affichage d'énormes quantités de données"
+          }
+        ]
+      },
+      "de": {
+        "tagline": "Zeichnen Sie die Wege Ihres Lebens auf, entdecken Sie die Schönheit der Reise",
+        "description": "TimeTrails ist eine App, die sich dem Aufzeichnen und Visualisieren Ihrer Bewegung widmet. Ob Sie pendeln, trainieren oder auf ein Abenteuer aufbrechen, sie erfasst Ihre Routen präzise und erweckt sie auf einer Karte zum Leben. Standardmäßig verbleiben alle Ihre Daten ausschließlich auf Ihrem Gerät, ohne Konto, ohne Werbung und ohne Tracking durch Dritte, sodass Ihre Privatsphäre vollständig geschützt ist.",
+        "features": [
+          {
+            "title": "Intelligentes Tracking",
+            "desc": "Standortermittlung im Vorder- und Hintergrund, die automatisch Genauigkeit und Akkulaufzeit ausbalanciert"
+          },
+          {
+            "title": "Mehrere Modi",
+            "desc": "Volle Unterstützung für Gehen, Laufen, Radfahren, Autofahren, Wandern und Fliegen"
+          },
+          {
+            "title": "Tägliche Zusammenfassungen",
+            "desc": "Automatisch erzeugte Distanz, Dauer und Aktivitätsrouten"
+          },
+          {
+            "title": "Duale Koordinatensysteme",
+            "desc": "Unterstützt WGS-84 und GCJ-02 für eine genaue Ausrichtung im chinesischen Festland"
+          },
+          {
+            "title": "Lokale Speicherung",
+            "desc": "Daten werden ausschließlich auf Ihrem Gerät gespeichert, um Ihre Privatsphäre zu schützen"
+          },
+          {
+            "title": "Reichhaltige Visualisierung",
+            "desc": "Punkte, Weglinien und Clustering machen es einfach, riesige Datenmengen darzustellen"
+          }
+        ]
+      },
+      "ja": {
+        "tagline": "生活の軌跡を記録し、旅の美しさを発見する",
+        "description": "TimeTrails は、あなたの移動を記録・可視化することに特化したアプリです。通勤でも、運動でも、冒険への旅立ちでも、経路を正確に捉え、地図の上で生き生きとよみがえらせます。デフォルトでは、すべてのデータはお使いのデバイスにのみ保存され、アカウントなし、広告なし、第三者トラッキングなしで、あなたのプライバシーがしっかりと守られます。",
+        "features": [
+          {
+            "title": "スマートトラッキング",
+            "desc": "精度とバッテリー持ちを自動的に両立するフォアグラウンド・バックグラウンドの位置情報"
+          },
+          {
+            "title": "多彩なモード",
+            "desc": "徒歩、ランニング、自転車、運転、ハイキング、飛行にフル対応"
+          },
+          {
+            "title": "日次サマリー",
+            "desc": "距離、所要時間、活動の経路を自動生成"
+          },
+          {
+            "title": "デュアル座標系",
+            "desc": "WGS-84 と GCJ-02 に対応し、中国本土でも正確に整合"
+          },
+          {
+            "title": "ローカル保存",
+            "desc": "データはお使いのデバイスにのみ保存され、プライバシーを保護"
+          },
+          {
+            "title": "豊かな可視化",
+            "desc": "ポイント、軌跡線、クラスタリングで、膨大なデータも簡単に表示"
+          }
+        ]
+      },
+      "ko": {
+        "tagline": "삶의 이동 경로를 기록하고, 여정의 아름다움을 발견하세요",
+        "description": "TimeTrails는 여러분의 이동을 기록하고 시각화하는 데 전념하는 앱입니다. 통근이든, 운동이든, 모험을 떠나든, 여러분의 경로를 정밀하게 포착하여 지도 위에 생생하게 펼쳐 냅니다. 기본적으로 모든 데이터는 오직 여러분의 기기에만 남으며, 계정도, 광고도, 제3자 추적도 없어 여러분의 개인정보가 온전히 보호됩니다.",
+        "features": [
+          {
+            "title": "스마트 트래킹",
+            "desc": "정확도와 배터리 수명의 균형을 자동으로 맞추는 포그라운드 및 백그라운드 위치 측정"
+          },
+          {
+            "title": "다양한 모드",
+            "desc": "걷기, 달리기, 자전거 타기, 운전, 하이킹, 비행을 모두 지원"
+          },
+          {
+            "title": "일일 요약",
+            "desc": "자동으로 생성되는 거리, 시간, 활동 경로"
+          },
+          {
+            "title": "이중 좌표계",
+            "desc": "WGS-84와 GCJ-02를 지원하여 중국 본토에서 정확하게 정렬"
+          },
+          {
+            "title": "로컬 저장",
+            "desc": "데이터는 오직 여러분의 기기에만 보관되어 개인정보를 보호합니다"
+          },
+          {
+            "title": "풍부한 시각화",
+            "desc": "점, 이동 경로 선, 클러스터링으로 방대한 양의 데이터를 손쉽게 표시"
+          }
+        ]
+      },
+      "pt": {
+        "tagline": "Registre os trajetos da sua vida, descubra a beleza da jornada",
+        "description": "O TimeTrails é um app dedicado a registrar e visualizar o seu deslocamento. Seja no trajeto para o trabalho, treinando ou partindo para uma aventura, ele captura suas rotas com precisão e as traz à vida em um mapa. Por padrão, todos os seus dados permanecem apenas no seu dispositivo, sem conta, sem anúncios e sem rastreamento de terceiros, para que sua privacidade seja totalmente protegida.",
+        "features": [
+          {
+            "title": "Rastreamento Inteligente",
+            "desc": "Localização em primeiro e segundo plano que equilibra automaticamente a precisão com a duração da bateria"
+          },
+          {
+            "title": "Vários Modos",
+            "desc": "Suporte completo para caminhada, corrida, ciclismo, direção, trilha e voo"
+          },
+          {
+            "title": "Resumos Diários",
+            "desc": "Distância, duração e rotas de atividade geradas automaticamente"
+          },
+          {
+            "title": "Sistemas de Coordenadas Duplos",
+            "desc": "Suporta WGS-84 e GCJ-02 para alinhamento preciso na China continental"
+          },
+          {
+            "title": "Armazenamento Local",
+            "desc": "Os dados são mantidos apenas no seu dispositivo para proteger sua privacidade"
+          },
+          {
+            "title": "Visualização Rica",
+            "desc": "Pontos, linhas de trajeto e agrupamento facilitam a exibição de grandes volumes de dados"
+          }
+        ]
+      },
+      "ru": {
+        "tagline": "Записывайте маршруты своей жизни, открывайте красоту путешествия",
+        "description": "TimeTrails — это приложение, посвящённое записи и визуализации ваших перемещений. Едете ли вы на работу, тренируетесь или отправляетесь в приключение — оно точно фиксирует ваши маршруты и оживляет их на карте. По умолчанию все ваши данные остаются только на вашем устройстве, без учётной записи, без рекламы и без стороннего отслеживания, так что ваша конфиденциальность полностью защищена.",
+        "features": [
+          {
+            "title": "Умная запись",
+            "desc": "Определение местоположения на переднем плане и в фоне, автоматически балансирующее точность и время работы от батареи"
+          },
+          {
+            "title": "Несколько режимов",
+            "desc": "Полная поддержка ходьбы, бега, велосипеда, вождения, пеших походов и полётов"
+          },
+          {
+            "title": "Ежедневные сводки",
+            "desc": "Автоматически генерируемые расстояние, продолжительность и маршруты активности"
+          },
+          {
+            "title": "Двойные системы координат",
+            "desc": "Поддержка WGS-84 и GCJ-02 для точного выравнивания в материковом Китае"
+          },
+          {
+            "title": "Локальное хранение",
+            "desc": "Данные хранятся только на вашем устройстве для защиты вашей конфиденциальности"
+          },
+          {
+            "title": "Насыщенная визуализация",
+            "desc": "Точки, линии маршрутов и кластеризация упрощают отображение огромных объёмов данных"
+          }
+        ]
+      },
+      "ar": {
+        "tagline": "سجّل مسارات حياتك، واكتشف جمال الرحلة",
+        "description": "TimeTrails تطبيق مخصّص لتسجيل تنقّلاتك وعرضها بصريًا. سواء كنت في طريقك إلى العمل، أو تمارس الرياضة، أو منطلقًا في مغامرة، فإنه يلتقط مساراتك بدقة ويبثّ فيها الحياة على الخريطة. بشكل افتراضي، تبقى جميع بياناتك على جهازك فقط، بلا حساب، وبلا إعلانات، وبلا تتبّع من أطراف ثالثة، فتكون خصوصيتك محميّة بالكامل.",
+        "features": [
+          {
+            "title": "تتبّع ذكي",
+            "desc": "تحديد للموقع في المقدمة والخلفية يوازن تلقائيًا بين الدقة وعمر البطارية"
+          },
+          {
+            "title": "أنماط متعددة",
+            "desc": "دعم كامل للمشي والجري وركوب الدراجة والقيادة والمشي لمسافات طويلة والطيران"
+          },
+          {
+            "title": "ملخّصات يومية",
+            "desc": "مسافة ومدة ومسارات نشاط تُنشأ تلقائيًا"
+          },
+          {
+            "title": "نظاما إحداثيات مزدوجان",
+            "desc": "يدعم WGS-84 وGCJ-02 للمحاذاة الدقيقة في الصين القارية"
+          },
+          {
+            "title": "التخزين المحلي",
+            "desc": "تُحفظ البيانات على جهازك فقط لحماية خصوصيتك"
+          },
+          {
+            "title": "عرض مرئي غني",
+            "desc": "النقاط وخطوط المسار والتجميع تسهّل عرض كميات هائلة من البيانات"
+          }
+        ]
+      },
+      "hi": {
+        "tagline": "अपने जीवन के पथ दर्ज करें, यात्रा की सुंदरता खोजें",
+        "description": "TimeTrails एक ऐप है जो आपकी गतिविधि को रिकॉर्ड और विज़ुअलाइज़ करने के लिए समर्पित है। चाहे आप आवागमन कर रहे हों, कसरत कर रहे हों, या किसी रोमांच पर निकले हों, यह आपके मार्गों को सटीक रूप से कैप्चर करता है और उन्हें मानचित्र पर जीवंत बनाता है। डिफ़ॉल्ट रूप से, आपका सारा डेटा केवल आपके डिवाइस पर रहता है, बिना किसी खाते, बिना किसी विज्ञापन, और बिना किसी तृतीय-पक्ष ट्रैकिंग के, ताकि आपकी गोपनीयता पूरी तरह सुरक्षित रहे।",
+        "features": [
+          {
+            "title": "स्मार्ट ट्रैकिंग",
+            "desc": "अग्रभूमि और पृष्ठभूमि स्थान जो सटीकता को बैटरी जीवन के साथ स्वचालित रूप से संतुलित करता है"
+          },
+          {
+            "title": "अनेक मोड",
+            "desc": "चलने, दौड़ने, साइकिल चलाने, गाड़ी चलाने, पैदल यात्रा और उड़ान के लिए पूर्ण समर्थन"
+          },
+          {
+            "title": "दैनिक सारांश",
+            "desc": "स्वचालित रूप से उत्पन्न दूरी, अवधि और गतिविधि मार्ग"
+          },
+          {
+            "title": "दोहरी निर्देशांक प्रणालियाँ",
+            "desc": "मुख्यभूमि चीन में सटीक संरेखण के लिए WGS-84 और GCJ-02 का समर्थन करता है"
+          },
+          {
+            "title": "स्थानीय संग्रहण",
+            "desc": "आपकी गोपनीयता की रक्षा के लिए डेटा केवल आपके डिवाइस पर रखा जाता है"
+          },
+          {
+            "title": "समृद्ध विज़ुअलाइज़ेशन",
+            "desc": "बिंदु, पथ रेखाएँ और क्लस्टरिंग विशाल मात्रा में डेटा प्रदर्शित करना आसान बनाते हैं"
+          }
+        ]
+      },
+      "it": {
+        "tagline": "Registra i percorsi della tua vita, scopri la bellezza del viaggio",
+        "description": "TimeTrails è un'app dedicata alla registrazione e alla visualizzazione dei tuoi spostamenti. Che tu stia andando al lavoro, ti stia allenando o sia partito per un'avventura, cattura i tuoi percorsi con precisione e li fa prendere vita su una mappa. Per impostazione predefinita, tutti i tuoi dati restano esclusivamente sul tuo dispositivo, senza account, senza pubblicità e senza tracciamento di terze parti, così la tua privacy è pienamente protetta.",
+        "features": [
+          {
+            "title": "Tracciamento intelligente",
+            "desc": "Localizzazione in primo piano e in background che bilancia automaticamente precisione e durata della batteria"
+          },
+          {
+            "title": "Molteplici modalità",
+            "desc": "Supporto completo per camminata, corsa, ciclismo, guida, escursionismo e volo"
+          },
+          {
+            "title": "Riepiloghi giornalieri",
+            "desc": "Distanza, durata e percorsi delle attività generati automaticamente"
+          },
+          {
+            "title": "Doppi sistemi di coordinate",
+            "desc": "Supporta WGS-84 e GCJ-02 per un allineamento accurato nella Cina continentale"
+          },
+          {
+            "title": "Archiviazione locale",
+            "desc": "I dati sono conservati solo sul tuo dispositivo per proteggere la tua privacy"
+          },
+          {
+            "title": "Visualizzazione ricca",
+            "desc": "Punti, linee di percorso e clustering rendono facile mostrare enormi quantità di dati"
+          }
+        ]
       }
     }
   },
@@ -226,6 +790,14 @@
     },
     "icon": "apps/traceapp/icon.png",
     "screenshots": [],
+    "legal": {
+      "privacy": {
+        "updated": "2025-10-12"
+      },
+      "terms": {
+        "updated": "2026-08-09"
+      }
+    },
     "locales": {
       "zh": {
         "tagline": "在设备本地记录、统计与回放你的出行轨迹，数据不上传服务器",
@@ -255,20 +827,7 @@
             "title": "Apple Watch 支持",
             "desc": "配套 watchOS 应用，可在手表端记录出行"
           }
-        ],
-        "support": {
-          "md": "# 出行轨迹 技术支持\n\n欢迎使用出行轨迹。遇到问题或有建议，欢迎通过下列方式联系我们。\n\n## 联系与技术支持\n- 客服邮箱：flywithbug@163.com\n- 微信企业客服：工作日 10:00–19:00 在线，可通过应用内的客服二维码添加。\n\n## 提交反馈\n提交反馈时，建议尽量提供以下信息，便于我们更快定位与处理：\n\n- 标题：简要描述你的问题或建议。\n- 类型：缺陷/报错、功能建议、交互/体验、其他。\n- 详细描述：复现步骤、期望行为、实际结果，可附截图。\n- 体验评分：1–5 星。\n- 可选联系方式：邮箱或 QQ，方便我们回复你。\n- 系统信息：设备型号、系统版本等，便于排查问题。\n\n## 加入交流群\n- QQ 群 1：574966492\n- QQ 群 2：185198503（已满）\n- 微信企业客服：工作日 10:00–19:00 在线，可扫码或长按识别二维码添加。\n\n## 常见问题\n\n### 如何添加微信客服？\n在「加入交流群」中长按微信企业客服二维码识别添加，客服在工作日 10:00–19:00 在线。\n\n### QQ 群 2 无法加入？\nQQ 群 2 已满，请加入 QQ 群 1（574966492）。\n\n### 反馈时需要提供哪些信息？\n建议提供标题、问题类型、详细描述（含复现步骤）、体验评分及可选联系方式，并可附带系统信息以便排查。\n"
-        },
-        "legal": {
-          "privacy": {
-            "updated": "2025-10-12",
-            "md": "# 出行轨迹 隐私政策\n\n最后更新：2025-10-12\n\n本隐私政策适用于出行轨迹（以下简称“本 App”）提供的移动应用服务。我们重视您的个人信息与隐私保护，力求以清晰、可读的方式说明：我们收集哪些信息；我们如何使用、存储与保护这些信息；您拥有哪些权利，以及如何行使。\n\n当您下载、安装或使用本 App，即视为您已阅读并同意本隐私政策的内容。如您不同意，请停止使用并卸载本 App。\n\n## 一、我们收集和使用的信息\n为实现核心功能（记录与展示出行轨迹），本 App 仅在设备本地处理以下类型信息：\n\n- 位置信息（必需）：用于记录与展示轨迹路径、里程、速度等。来源于 iOS CoreLocation，仅在您授予定位权限后采集。\n- 运动状态 / 步行跑步等活动信息（可选）：用于计算步数、活动类型等，来源于 CoreMotion（如适用）。\n- 网络连接状态（仅用于提示）：用于判断是否可进行在线地图或同步，不包含内容数据。\n\n我们不收集：账户信息、联系人、短信/通话、相册内容、麦克风/摄像头数据、广告标识符（IDFA）或任何可用于投放广告的跟踪标识。我们也不内置第三方统计/广告 SDK。\n\n## 二、信息的存储与传输\n- 本地存储：轨迹及相关统计数据默认保存在您的设备本地应用沙盒中。\n- iCloud（如您开启）：在您启用 iCloud 同步后，相关数据可能随 iCloud 在您的设备间同步。iCloud 由 Apple 提供与保护，我们不会获取您的 iCloud 凭据或内容。\n- 不上传到自有服务器：除非在未来版本中新增并经您明确授权的云服务，本 App 不将您的数据上传至开发者自有服务器。\n\n## 三、我们如何使用信息\n- 实现轨迹记录、里程/配速统计、轨迹回放与可视化等功能；\n- 为您提供基础的网络状态提示与错误诊断（不包含任何内容上传）。\n\n## 四、权限说明与撤回方式（iOS）\n- 定位服务：设置 → 隐私与安全性 → 定位服务 → 出行轨迹，可选择“使用 App 期间”或“始终”，并可随时关闭。\n- 运动与健身：设置 → 隐私与安全性 → 运动与健身 → 出行轨迹，可随时关闭授权。\n- 蜂窝/无线局域网：设置 → 出行轨迹，可关闭“无线局域网与蜂窝移动网”。\n\n关闭相关权限后，部分功能可能不可用，但不影响您继续使用其他不依赖该权限的功能。\n\n## 五、您的权利\n- 访问与导出：您可在 App 内查看历史轨迹；如需导出，可通过系统分享功能（若提供）导出为图片/文件。\n- 更正：您可删除错误记录并重新记录；我们不对您的数据进行加工更改。\n- 删除：您可在 App 内删除某条或全部记录；卸载 App 将删除本地数据。若使用 iCloud，同步数据需在 iCloud 设置中另行管理与删除。\n- 撤回同意：通过 iOS 设置关闭相关权限，或停止使用/卸载本 App。\n\n## 六、数据安全\n- 本地数据受 iOS 沙盒机制保护；\n- iCloud 的传输/存储安全由 Apple 提供（详见 Apple 隐私说明）。\n\n## 七、儿童隐私\n本 App 面向普通大众，不针对 14 周岁及以下未成年人提供服务。若您认为我们在未获监护人同意的情况下收集了未成年人信息，请联系 flywithbug@gmail.com 以便处理。\n\n## 八、第三方与共享\n- 当前版本不集成第三方广告/统计/分析 SDK，不与任何第三方共享您的个人信息。\n- 如未来新增第三方服务，我们将更新本政策并在 App 内显著提示，征得您的明确同意后再启用。\n\n## 九、本政策的变更\n我们可能因功能或法规变化对本政策进行修订。若变更可能实质性影响您的权利，我们将在 App 内显著位置提示或以其他合理方式通知。修订后版本发布即生效；如您不同意，可停止使用并卸载 App。\n\n## 十、联系我们\n如对本政策或隐私保护有任何疑问、建议或投诉，请通过以下方式联系：\n\n- 邮箱：flywithbug@gmail.com\n"
-          },
-          "terms": {
-            "updated": "2026-08-09",
-            "md": "# 出行轨迹 用户协议\n\n更新日期：2026 年 8 月 9 日\n\n欢迎使用出行轨迹（以下简称“本应用”）。本应用由上海树下小屋网络科技有限公司（以下简称“我们”）开发与运营。本协议是您与我们之间就使用本应用及相关服务所订立的协议，请您在使用前认真阅读并充分理解各条款。您下载、安装、启动或使用本应用，即视为您已阅读并同意接受本协议全部内容；如您不同意，请停止使用并卸载本应用。\n\n## 一、协议范围与主体\n本协议由您与上海树下小屋网络科技有限公司共同缔结，适用于您对本应用及其功能、服务的全部使用行为。\n\n## 二、服务内容\n本应用为您提供出行轨迹的记录、里程与配速统计、轨迹回放与地图可视化等功能。我们可能根据产品迭代对服务内容进行调整、升级或优化，并会以适当方式告知。\n\n## 三、账号与数据\n本应用无需注册账号即可使用其核心功能。轨迹等数据默认仅存储在您的设备本地沙盒；若您开启 iCloud 同步，相关服务由 Apple 提供并受其条款约束。请您妥善保管您的设备与账户。\n\n## 四、用户行为规范\n您承诺合法、正当地使用本应用，不得利用本应用从事任何违反法律法规或侵害他人合法权益的行为，包括但不限于破解、逆向、篡改本应用，干扰或破坏本应用的正常运行。您应对自身出行安全负责，切勿在驾驶或需要专注的情形下操作本应用。\n\n## 五、知识产权\n本应用及其相关软件、界面、文字、图标等内容的知识产权，均归我们或相关权利人所有。未经许可，您不得擅自复制、修改、传播或用于商业用途。\n\n## 六、费用\n本应用的收费方式（免费/内购/订阅）以 App Store 展示为准。如涉及内购或订阅，相关交易由 Apple 处理，退款等事宜适用 Apple 的相关政策。\n\n## 七、隐私保护\n我们重视您的隐私。关于个人信息与位置数据的处理，请参见本应用的《隐私政策》，该政策为本协议不可分割的组成部分。\n\n## 八、免责声明与责任限制\n本应用按“现状”提供。在法律允许的范围内，我们不对因使用或无法使用本应用而导致的任何间接、偶然或后果性损失承担责任。您理解并同意，定位与轨迹记录可能受设备、系统、卫星信号或环境因素影响而存在偏差，相关数据仅供参考，不作为导航、测量或法律用途的依据。\n\n## 九、协议的变更、中止与终止\n我们可能根据法律法规或业务需要修订本协议，修订后的协议一经公布即生效。若您继续使用本应用，视为接受修订后的协议。您可随时停止使用并卸载本应用以终止本协议。\n\n## 十、适用法律与争议解决\n本协议的订立、执行与解释均适用中华人民共和国法律。因本协议产生的争议，双方应友好协商解决；协商不成的，任一方可向我们所在地有管辖权的人民法院提起诉讼。\n\n## 十一、联系我们\n如对本协议有任何疑问，请联系：house@sxxw.site\n上海树下小屋网络科技有限公司\n"
-          }
-        }
+        ]
       },
       "en": {
         "tagline": "Record, analyze, and replay your trips locally on your device — your data never leaves for a server.",
@@ -298,20 +857,307 @@
             "title": "Apple Watch Support",
             "desc": "A companion watchOS app lets you record trips right from your wrist"
           }
-        ],
-        "support": {
-          "md": "# TraceApp Support\n\nWelcome to TraceApp. If you run into problems or have suggestions, feel free to reach out to us through the channels below.\n\n## Contact & Technical Support\n- Support email: flywithbug@163.com\n- WeChat business support: online on weekdays 10:00–19:00; you can add us via the support QR code in the app.\n\n## Submitting Feedback\nWhen submitting feedback, we recommend providing as much of the following as possible so we can locate and resolve the issue faster:\n\n- Title: A brief description of your issue or suggestion.\n- Type: Bug/error, feature request, interaction/experience, or other.\n- Detailed description: Steps to reproduce, expected behavior, and actual result; screenshots welcome.\n- Experience rating: 1–5 stars.\n- Optional contact info: Email or QQ, so we can reply to you.\n- System information: Device model, OS version, etc., to help us troubleshoot.\n\n## Join Our Community\n- QQ Group 1: 574966492\n- QQ Group 2: 185198503 (full)\n- WeChat business support: online on weekdays 10:00–19:00; scan or long-press to recognize the QR code to add us.\n\n## FAQ\n\n### How do I add WeChat support?\nUnder \"Join Our Community,\" long-press the WeChat business support QR code to recognize and add it. Support is online on weekdays 10:00–19:00.\n\n### Can't join QQ Group 2?\nQQ Group 2 is full. Please join QQ Group 1 (574966492).\n\n### What information should I include when giving feedback?\nWe recommend providing a title, issue type, detailed description (including steps to reproduce), experience rating, and optional contact info, and you may include system information to help with troubleshooting.\n"
-        },
-        "legal": {
-          "privacy": {
-            "updated": "2025-10-12",
-            "md": "# TraceApp Privacy Policy\n\nLast updated: 2025-10-12\n\nThis Privacy Policy applies to the mobile application services provided by TraceApp (hereinafter referred to as \"this App\"). We take the protection of your personal information and privacy seriously, and we aim to explain clearly and readably: what information we collect; how we use, store, and protect this information; and what rights you have and how to exercise them.\n\nWhen you download, install, or use this App, you are deemed to have read and agreed to the terms of this Privacy Policy. If you do not agree, please stop using and uninstall this App.\n\n## 1. Information We Collect and Use\nTo deliver its core functions (recording and displaying your trips), this App processes only the following types of information locally on your device:\n\n- Location data (required): Used to record and display your routes, distance, speed, and more. Sourced from iOS CoreLocation and collected only after you grant location permission.\n- Motion / activity data such as walking and running (optional): Used to calculate step count, activity type, and more. Sourced from CoreMotion (where applicable).\n- Network connection status (for prompts only): Used to determine whether online maps or syncing are available. Does not include any content data.\n\nWe do not collect: account information, contacts, SMS/call records, photo library content, microphone/camera data, advertising identifiers (IDFA), or any tracking identifiers that could be used to serve ads. We also do not embed any third-party analytics or advertising SDKs.\n\n## 2. Storage and Transmission of Information\n- Local storage: Your tracks and related statistics are stored by default in your device's local app sandbox.\n- iCloud (if you enable it): Once you turn on iCloud sync, the relevant data may sync across your devices via iCloud. iCloud is provided and protected by Apple; we do not have access to your iCloud credentials or content.\n- No upload to our own servers: Unless a cloud service is added in a future version and explicitly authorized by you, this App does not upload your data to the developer's own servers.\n\n## 3. How We Use Information\n- To provide features such as trip tracking, distance/pace statistics, track replay, and visualization;\n- To provide you with basic network status prompts and error diagnostics (no content is uploaded).\n\n## 4. Permissions and How to Revoke Them (iOS)\n- Location Services: Settings → Privacy & Security → Location Services → TraceApp, where you can choose \"While Using the App\" or \"Always,\" and turn it off at any time.\n- Motion & Fitness: Settings → Privacy & Security → Motion & Fitness → TraceApp, where you can revoke the permission at any time.\n- Cellular/Wi-Fi: Settings → TraceApp, where you can turn off \"Wireless Data (Wi-Fi & Cellular).\"\n\nAfter you turn off the relevant permissions, some features may become unavailable, but this does not affect your continued use of other features that do not depend on those permissions.\n\n## 5. Your Rights\n- Access and export: You can view your track history within the App; to export it, you can use the system share feature (if available) to export images/files.\n- Correction: You can delete incorrect records and record again; we do not process or alter your data.\n- Deletion: You can delete individual records or all records within the App; uninstalling the App will delete local data. If you use iCloud, synced data must be managed and deleted separately in your iCloud settings.\n- Withdrawing consent: Turn off the relevant permissions in iOS Settings, or stop using / uninstall this App.\n\n## 6. Data Security\n- Local data is protected by the iOS sandbox mechanism;\n- The security of iCloud transmission/storage is provided by Apple (see Apple's privacy documentation for details).\n\n## 7. Children's Privacy\nThis App is intended for the general public and does not provide services to minors aged 14 or under. If you believe we have collected a minor's information without guardian consent, please contact flywithbug@gmail.com so we can address it.\n\n## 8. Third Parties and Sharing\n- The current version does not integrate any third-party advertising/statistics/analytics SDKs, and does not share your personal information with any third party.\n- If third-party services are added in the future, we will update this policy, provide a prominent notice within the App, and obtain your explicit consent before enabling them.\n\n## 9. Changes to This Policy\nWe may revise this policy in response to changes in features or regulations. If a change may materially affect your rights, we will provide a prominent notice within the App or notify you by other reasonable means. The revised version takes effect upon publication; if you do not agree, you may stop using and uninstall the App.\n\n## 10. Contact Us\nIf you have any questions, suggestions, or complaints about this policy or privacy protection, please contact us via:\n\n- Email: flywithbug@gmail.com\n"
+        ]
+      },
+      "es": {
+        "tagline": "Registra, analiza y reproduce tus viajes localmente en tu dispositivo — tus datos nunca salen hacia un servidor.",
+        "description": "TraceApp es una app de iOS de seguimiento de viajes centrada en la privacidad. Construida sobre CoreLocation y CoreMotion, registra tus rutas, distancia y ritmo directamente en tu dispositivo, con compatibilidad con la reproducción y la visualización de recorridos. De forma predeterminada, todos los datos permanecen únicamente en el sandbox local de tu dispositivo. No hay SDK de anuncios ni de análisis de terceros integrados, y puedes revocar permisos o eliminar tus datos en cualquier momento.",
+        "features": [
+          {
+            "title": "Seguimiento de viajes",
+            "desc": "Registra tu ruta, distancia y velocidad en tiempo real usando CoreLocation"
           },
-          "terms": {
-            "updated": "2026-08-09",
-            "md": "# TraceApp Terms of Service\n\nUpdated: August 9, 2026\n\nWelcome to TraceApp (hereinafter referred to as \"this App\"). This App is developed and operated by Shanghai Shuxia Xiaowu Network Technology Co., Ltd. (hereinafter referred to as \"we\" or \"us\"). This agreement is entered into between you and us regarding your use of this App and its related services. Please read and fully understand all terms before use. By downloading, installing, launching, or using this App, you are deemed to have read and agreed to be bound by all the terms of this agreement; if you do not agree, please stop using and uninstall this App.\n\n## 1. Scope and Parties\nThis agreement is entered into jointly by you and Shanghai Shuxia Xiaowu Network Technology Co., Ltd., and applies to all of your use of this App and its features and services.\n\n## 2. Services\nThis App provides you with features such as trip tracking, distance and pace statistics, track replay, and map visualization. We may adjust, upgrade, or optimize the services as the product evolves, and will notify you in an appropriate manner.\n\n## 3. Accounts and Data\nYou can use the core features of this App without registering an account. Data such as your tracks is stored by default only in your device's local sandbox; if you enable iCloud sync, the relevant service is provided by Apple and subject to its terms. Please keep your device and accounts secure.\n\n## 4. Code of Conduct\nYou agree to use this App lawfully and properly, and not to use it to engage in any activity that violates laws and regulations or infringes on the legitimate rights and interests of others, including but not limited to cracking, reverse-engineering, or tampering with this App, or interfering with or disrupting its normal operation. You are responsible for your own travel safety and must not operate this App while driving or in any situation that requires your full attention.\n\n## 5. Intellectual Property\nThe intellectual property rights in this App and its related software, interface, text, icons, and other content belong to us or the respective rights holders. Without permission, you may not copy, modify, distribute, or use them for commercial purposes.\n\n## 6. Fees\nThe pricing model for this App (free/in-app purchase/subscription) is as shown in the App Store. Where in-app purchases or subscriptions are involved, the relevant transactions are handled by Apple, and matters such as refunds are subject to Apple's applicable policies.\n\n## 7. Privacy Protection\nWe value your privacy. For information on how personal information and location data are handled, please refer to this App's Privacy Policy, which is an integral part of this agreement.\n\n## 8. Disclaimer and Limitation of Liability\nThis App is provided \"as is.\" To the extent permitted by law, we shall not be liable for any indirect, incidental, or consequential losses arising from your use of or inability to use this App. You understand and agree that location and track recording may deviate due to device, system, satellite signal, or environmental factors, and that the relevant data is for reference only and should not be used as a basis for navigation, measurement, or legal purposes.\n\n## 9. Changes, Suspension, and Termination of This Agreement\nWe may revise this agreement in accordance with laws and regulations or business needs, and the revised agreement takes effect upon publication. If you continue to use this App, you are deemed to have accepted the revised agreement. You may stop using and uninstall this App at any time to terminate this agreement.\n\n## 10. Governing Law and Dispute Resolution\nThe formation, performance, and interpretation of this agreement are governed by the laws of the People's Republic of China. Any dispute arising from this agreement shall be resolved through friendly consultation between the parties; if consultation fails, either party may file a lawsuit with the people's court of competent jurisdiction in the place where we are located.\n\n## 11. Contact Us\nIf you have any questions about this agreement, please contact: house@sxxw.site\nShanghai Shuxia Xiaowu Network Technology Co., Ltd.\n"
+          {
+            "title": "Estadísticas de distancia y ritmo",
+            "desc": "Usa CoreMotion para calcular el recuento de pasos, el tipo de actividad y el ritmo"
+          },
+          {
+            "title": "Reproducción y visualización de recorridos",
+            "desc": "Reproduce tus recorridos pasados en un mapa y muestra tus rutas con claridad"
+          },
+          {
+            "title": "Prioridad local y enfoque en la privacidad",
+            "desc": "Los datos permanecen en el sandbox local de tu dispositivo de forma predeterminada — nunca se suben a nuestros propios servidores, sin SDK de anuncios ni de análisis"
+          },
+          {
+            "title": "Sincronización con iCloud",
+            "desc": "Una vez activada, mantiene tus datos de recorridos sincronizados entre todos tus dispositivos"
+          },
+          {
+            "title": "Compatibilidad con Apple Watch",
+            "desc": "Una app complementaria de watchOS te permite registrar viajes directamente desde tu muñeca"
           }
-        }
+        ]
+      },
+      "fr": {
+        "tagline": "Enregistrez, analysez et rejouez vos trajets localement sur votre appareil — vos données ne partent jamais vers un serveur.",
+        "description": "TraceApp est une application iOS de suivi de trajets axée sur la confidentialité. Construite sur CoreLocation et CoreMotion, elle enregistre vos itinéraires, votre distance et votre allure directement sur votre appareil, avec la prise en charge de la relecture et de la visualisation des trajets. Par défaut, toutes les données restent uniquement dans le sandbox local de votre appareil. Il n'y a aucun SDK publicitaire ou d'analyse tiers intégré, et vous pouvez révoquer les autorisations ou supprimer vos données à tout moment.",
+        "features": [
+          {
+            "title": "Suivi de trajets",
+            "desc": "Enregistre votre itinéraire, votre distance et votre vitesse en temps réel à l'aide de CoreLocation"
+          },
+          {
+            "title": "Statistiques de distance et d'allure",
+            "desc": "Utilise CoreMotion pour calculer le nombre de pas, le type d'activité et l'allure"
+          },
+          {
+            "title": "Relecture et visualisation des trajets",
+            "desc": "Rejoue vos trajets passés sur une carte et affiche clairement vos itinéraires"
+          },
+          {
+            "title": "Priorité au local et confidentialité",
+            "desc": "Les données restent par défaut dans le sandbox local de votre appareil — jamais téléversées vers nos propres serveurs, sans SDK publicitaire ni d'analyse"
+          },
+          {
+            "title": "Synchronisation iCloud",
+            "desc": "Une fois activée, maintient vos données de trajet synchronisées sur tous vos appareils"
+          },
+          {
+            "title": "Prise en charge d'Apple Watch",
+            "desc": "Une application watchOS compagnon vous permet d'enregistrer vos trajets directement depuis votre poignet"
+          }
+        ]
+      },
+      "de": {
+        "tagline": "Zeichnen Sie Ihre Fahrten lokal auf Ihrem Gerät auf, analysieren und geben Sie sie wieder — Ihre Daten verlassen es nie für einen Server.",
+        "description": "TraceApp ist eine datenschutzorientierte iOS-App zur Fahrtenverfolgung. Aufgebaut auf CoreLocation und CoreMotion, zeichnet sie Ihre Routen, Distanz und Ihr Tempo direkt auf Ihrem Gerät auf, mit Unterstützung für Wegwiedergabe und Visualisierung. Standardmäßig verbleiben alle Daten ausschließlich in der lokalen Sandbox Ihres Geräts. Es gibt keine integrierten Werbe- oder Analyse-SDKs von Dritten, und Sie können Berechtigungen jederzeit widerrufen oder Ihre Daten löschen.",
+        "features": [
+          {
+            "title": "Fahrtenverfolgung",
+            "desc": "Zeichnet Ihre Route, Distanz und Geschwindigkeit in Echtzeit mit CoreLocation auf"
+          },
+          {
+            "title": "Distanz- & Tempostatistiken",
+            "desc": "Nutzt CoreMotion zur Berechnung von Schrittzahl, Aktivitätstyp und Tempo"
+          },
+          {
+            "title": "Wegwiedergabe & Visualisierung",
+            "desc": "Gibt Ihre vergangenen Wege auf einer Karte wieder und zeigt Ihre Routen deutlich an"
+          },
+          {
+            "title": "Lokal zuerst & datenschutzorientiert",
+            "desc": "Daten verbleiben standardmäßig in der lokalen Sandbox Ihres Geräts — niemals auf unsere eigenen Server hochgeladen, ohne Werbe- oder Analyse-SDKs"
+          },
+          {
+            "title": "iCloud-Synchronisierung",
+            "desc": "Nach der Aktivierung werden Ihre Wegdaten auf all Ihren Geräten synchron gehalten"
+          },
+          {
+            "title": "Apple-Watch-Unterstützung",
+            "desc": "Eine begleitende watchOS-App lässt Sie Fahrten direkt von Ihrem Handgelenk aus aufzeichnen"
+          }
+        ]
+      },
+      "ja": {
+        "tagline": "移動の軌跡をデバイス本体で記録・統計・再生し、データはサーバーに出ていくことがありません。",
+        "description": "TraceApp は、プライバシーを重視した iOS の移動記録アプリです。CoreLocation と CoreMotion をベースに、あなたの経路、距離、ペースをデバイス上で直接記録し、軌跡の再生と可視化に対応します。デフォルトでは、すべてのデータはお使いのデバイスのローカルサンドボックスにのみ保存されます。第三者の広告や分析 SDK は組み込まれておらず、いつでも権限を取り消したりデータを削除したりできます。",
+        "features": [
+          {
+            "title": "移動の記録",
+            "desc": "CoreLocation を使い、移動経路、距離、速度をリアルタイムで記録"
+          },
+          {
+            "title": "距離とペースの統計",
+            "desc": "CoreMotion を使って歩数、活動の種類、ペースを算出"
+          },
+          {
+            "title": "軌跡の再生と可視化",
+            "desc": "過去の軌跡を地図上で再生し、経路を分かりやすく表示"
+          },
+          {
+            "title": "ローカル優先とプライバシー保護",
+            "desc": "データはデフォルトでデバイスのローカルサンドボックスに保存され、自社サーバーにアップロードされず、広告や分析 SDK もなし"
+          },
+          {
+            "title": "iCloud 同期",
+            "desc": "有効にすると、あなたの複数のデバイス間で軌跡データを同期"
+          },
+          {
+            "title": "Apple Watch 対応",
+            "desc": "連携する watchOS アプリで、手首から直接移動を記録"
+          }
+        ]
+      },
+      "ko": {
+        "tagline": "여러분의 이동 경로를 기기 로컬에서 기록, 분석, 재생하세요 — 데이터가 서버로 나가지 않습니다.",
+        "description": "TraceApp은 개인정보 보호에 중점을 둔 iOS 이동 기록 앱입니다. CoreLocation과 CoreMotion을 기반으로, 여러분의 경로, 거리, 페이스를 기기에서 직접 기록하며, 이동 경로 재생과 시각화를 지원합니다. 기본적으로 모든 데이터는 오직 여러분 기기의 로컬 샌드박스에만 남습니다. 내장된 제3자 광고나 분석 SDK가 없으며, 언제든지 권한을 취소하거나 데이터를 삭제할 수 있습니다.",
+        "features": [
+          {
+            "title": "이동 기록",
+            "desc": "CoreLocation을 사용하여 여러분의 경로, 거리, 속도를 실시간으로 기록"
+          },
+          {
+            "title": "거리 및 페이스 통계",
+            "desc": "CoreMotion을 사용하여 걸음 수, 활동 유형, 페이스를 계산"
+          },
+          {
+            "title": "이동 경로 재생 및 시각화",
+            "desc": "지도 위에서 지난 이동 경로를 재생하고 경로를 선명하게 표시"
+          },
+          {
+            "title": "로컬 우선 및 개인정보 중심",
+            "desc": "데이터가 기본적으로 여러분 기기의 로컬 샌드박스에 남으며 — 자체 서버로 업로드되지 않고, 광고나 분석 SDK가 없습니다"
+          },
+          {
+            "title": "iCloud 동기화",
+            "desc": "활성화하면 여러분의 모든 기기 간에 이동 경로 데이터를 동기화 상태로 유지"
+          },
+          {
+            "title": "Apple Watch 지원",
+            "desc": "동반 watchOS 앱으로 손목에서 바로 이동을 기록할 수 있습니다"
+          }
+        ]
+      },
+      "pt": {
+        "tagline": "Registre, analise e reproduza seus deslocamentos localmente no seu dispositivo — seus dados nunca saem para um servidor.",
+        "description": "O TraceApp é um app de rastreamento de deslocamentos para iOS focado na privacidade. Construído sobre o CoreLocation e o CoreMotion, ele registra suas rotas, distância e ritmo diretamente no seu dispositivo, com suporte para reprodução e visualização de trajetos. Por padrão, todos os dados permanecem apenas no sandbox local do seu dispositivo. Não há SDKs de anúncios ou análises de terceiros integrados, e você pode revogar permissões ou excluir seus dados a qualquer momento.",
+        "features": [
+          {
+            "title": "Rastreamento de Deslocamentos",
+            "desc": "Registra sua rota, distância e velocidade em tempo real usando o CoreLocation"
+          },
+          {
+            "title": "Estatísticas de Distância e Ritmo",
+            "desc": "Usa o CoreMotion para calcular contagem de passos, tipo de atividade e ritmo"
+          },
+          {
+            "title": "Reprodução e Visualização de Trajetos",
+            "desc": "Reproduz seus trajetos passados em um mapa e mostra suas rotas com clareza"
+          },
+          {
+            "title": "Prioridade Local e Foco na Privacidade",
+            "desc": "Os dados permanecem no sandbox local do seu dispositivo por padrão — nunca enviados aos nossos próprios servidores, sem SDKs de anúncios ou análises"
+          },
+          {
+            "title": "Sincronização com iCloud",
+            "desc": "Uma vez ativada, mantém os dados dos seus trajetos sincronizados entre todos os seus dispositivos"
+          },
+          {
+            "title": "Suporte ao Apple Watch",
+            "desc": "Um app complementar para watchOS permite que você registre deslocamentos direto do seu pulso"
+          }
+        ]
+      },
+      "ru": {
+        "tagline": "Записывайте, анализируйте и воспроизводите свои поездки локально на устройстве — ваши данные никогда не отправляются на сервер.",
+        "description": "TraceApp — это ориентированное на конфиденциальность приложение для отслеживания поездок на iOS. Построенное на CoreLocation и CoreMotion, оно записывает ваши маршруты, расстояние и темп прямо на вашем устройстве, с поддержкой воспроизведения треков и визуализации. По умолчанию все данные остаются только в локальной песочнице вашего устройства. Нет встроенных сторонних SDK рекламы или аналитики, и вы можете отозвать разрешения или удалить свои данные в любое время.",
+        "features": [
+          {
+            "title": "Отслеживание поездок",
+            "desc": "Записывает ваш маршрут, расстояние и скорость в реальном времени с помощью CoreLocation"
+          },
+          {
+            "title": "Статистика расстояния и темпа",
+            "desc": "Использует CoreMotion для расчёта количества шагов, типа активности и темпа"
+          },
+          {
+            "title": "Воспроизведение и визуализация треков",
+            "desc": "Воспроизводит ваши прошлые треки на карте и наглядно показывает ваши маршруты"
+          },
+          {
+            "title": "Локальный приоритет и защита конфиденциальности",
+            "desc": "Данные по умолчанию остаются в локальной песочнице вашего устройства — никогда не загружаются на наши собственные серверы, без SDK рекламы или аналитики"
+          },
+          {
+            "title": "Синхронизация iCloud",
+            "desc": "После включения синхронизирует данные ваших треков между всеми вашими устройствами"
+          },
+          {
+            "title": "Поддержка Apple Watch",
+            "desc": "Сопутствующее приложение для watchOS позволяет записывать поездки прямо с запястья"
+          }
+        ]
+      },
+      "ar": {
+        "tagline": "سجّل رحلاتك وحلّلها وأعِد تشغيلها محليًا على جهازك — بياناتك لا تغادر أبدًا إلى أي خادم.",
+        "description": "TraceApp تطبيق iOS لتتبّع الرحلات يركّز على الخصوصية. مبني على CoreLocation وCoreMotion، ويسجّل مساراتك ومسافتك وإيقاعك مباشرةً على جهازك، مع دعم لإعادة تشغيل المسار والعرض المرئي. بشكل افتراضي، تبقى جميع البيانات في الصندوق (Sandbox) المحلي على جهازك فقط. لا توجد حزم تطوير برمجيات (SDK) مدمجة للإعلانات أو التحليلات من أطراف ثالثة، ويمكنك إلغاء الأذونات أو حذف بياناتك في أي وقت.",
+        "features": [
+          {
+            "title": "تتبّع الرحلات",
+            "desc": "يسجّل مسارك ومسافتك وسرعتك في الوقت الفعلي باستخدام CoreLocation"
+          },
+          {
+            "title": "إحصاءات المسافة والإيقاع",
+            "desc": "يستخدم CoreMotion لحساب عدد الخطوات ونوع النشاط والإيقاع"
+          },
+          {
+            "title": "إعادة تشغيل المسار والعرض المرئي",
+            "desc": "يعيد تشغيل مساراتك السابقة على الخريطة ويعرض طرقك بوضوح"
+          },
+          {
+            "title": "الأولوية للتخزين المحلي والتركيز على الخصوصية",
+            "desc": "تبقى البيانات في الصندوق (Sandbox) المحلي على جهازك بشكل افتراضي — ولا تُرفع أبدًا إلى خوادمنا الخاصة، وبلا حزم SDK للإعلانات أو التحليلات"
+          },
+          {
+            "title": "المزامنة عبر iCloud",
+            "desc": "بمجرد التفعيل، تُبقي بيانات مساراتك متزامنة عبر جميع أجهزتك"
+          },
+          {
+            "title": "دعم Apple Watch",
+            "desc": "تطبيق watchOS مصاحب يتيح لك تسجيل الرحلات مباشرةً من معصمك"
+          }
+        ]
+      },
+      "hi": {
+        "tagline": "अपनी यात्राओं को अपने डिवाइस पर स्थानीय रूप से रिकॉर्ड, विश्लेषण और रीप्ले करें — आपका डेटा कभी किसी सर्वर के लिए नहीं जाता।",
+        "description": "TraceApp एक गोपनीयता-केंद्रित iOS यात्रा-ट्रैकिंग ऐप है। CoreLocation और CoreMotion पर निर्मित, यह आपके मार्ग, दूरी और गति को सीधे आपके डिवाइस पर रिकॉर्ड करता है, ट्रैक रीप्ले और विज़ुअलाइज़ेशन के समर्थन के साथ। डिफ़ॉल्ट रूप से, सारा डेटा केवल आपके डिवाइस के स्थानीय सैंडबॉक्स में रहता है। कोई अंतर्निहित तृतीय-पक्ष विज्ञापन या विश्लेषण SDK नहीं हैं, और आप किसी भी समय अनुमतियाँ रद्द कर सकते हैं या अपना डेटा हटा सकते हैं।",
+        "features": [
+          {
+            "title": "यात्रा ट्रैकिंग",
+            "desc": "CoreLocation का उपयोग करके आपके मार्ग, दूरी और गति को वास्तविक समय में रिकॉर्ड करता है"
+          },
+          {
+            "title": "दूरी और गति आँकड़े",
+            "desc": "कदमों की संख्या, गतिविधि प्रकार और गति की गणना के लिए CoreMotion का उपयोग करता है"
+          },
+          {
+            "title": "ट्रैक रीप्ले और विज़ुअलाइज़ेशन",
+            "desc": "मानचित्र पर आपके पिछले ट्रैक रीप्ले करता है और आपके मार्गों को स्पष्ट रूप से दिखाता है"
+          },
+          {
+            "title": "स्थानीय-प्रथम और गोपनीयता-केंद्रित",
+            "desc": "डेटा डिफ़ॉल्ट रूप से आपके डिवाइस के स्थानीय सैंडबॉक्स में रहता है — हमारे अपने सर्वरों पर कभी अपलोड नहीं किया जाता, बिना किसी विज्ञापन या विश्लेषण SDK के"
+          },
+          {
+            "title": "iCloud सिंक",
+            "desc": "एक बार सक्षम होने पर, आपके ट्रैक डेटा को आपके सभी डिवाइसों में सिंक रखता है"
+          },
+          {
+            "title": "Apple Watch समर्थन",
+            "desc": "एक साथी watchOS ऐप आपको अपनी कलाई से ही यात्राएँ रिकॉर्ड करने देता है"
+          }
+        ]
+      },
+      "it": {
+        "tagline": "Registra, analizza e riproduci i tuoi viaggi in locale sul tuo dispositivo — i tuoi dati non lasciano mai il dispositivo per finire su un server.",
+        "description": "TraceApp è un'app iOS per il tracciamento dei viaggi incentrata sulla privacy. Basata su CoreLocation e CoreMotion, registra i tuoi percorsi, la distanza e il passo direttamente sul tuo dispositivo, con supporto per il replay e la visualizzazione dei percorsi. Per impostazione predefinita, tutti i dati restano esclusivamente nella sandbox locale del tuo dispositivo. Non ci sono SDK pubblicitari o di analisi di terze parti integrati, e puoi revocare le autorizzazioni o eliminare i tuoi dati in qualsiasi momento.",
+        "features": [
+          {
+            "title": "Tracciamento dei viaggi",
+            "desc": "Registra il tuo percorso, la distanza e la velocità in tempo reale utilizzando CoreLocation"
+          },
+          {
+            "title": "Statistiche di distanza e passo",
+            "desc": "Utilizza CoreMotion per calcolare il conteggio dei passi, il tipo di attività e il passo"
+          },
+          {
+            "title": "Replay e visualizzazione dei percorsi",
+            "desc": "Riproduce i tuoi percorsi passati su una mappa e mostra chiaramente i tuoi tragitti"
+          },
+          {
+            "title": "Priorità al locale e attenzione alla privacy",
+            "desc": "I dati restano nella sandbox locale del tuo dispositivo per impostazione predefinita — mai caricati sui nostri server, senza SDK pubblicitari o di analisi"
+          },
+          {
+            "title": "Sincronizzazione iCloud",
+            "desc": "Una volta abilitata, mantiene sincronizzati i dati dei tuoi percorsi su tutti i tuoi dispositivi"
+          },
+          {
+            "title": "Supporto per Apple Watch",
+            "desc": "Un'app companion per watchOS ti permette di registrare i viaggi direttamente dal polso"
+          }
+        ]
       }
     }
   }

@@ -95,10 +95,8 @@ export default function HomePage() {
           <h2>
             {t('about_title')} {brandLabel}
           </h2>
-          <p className="mod-about-text">
-            {companyName(lang)}
-            {t('about_text')}
-          </p>
+          <p className="mod-about-text">{t('about_text')}</p>
+          <p className="mod-about-company">{companyName(lang)}</p>
         </div>
       </section>
 

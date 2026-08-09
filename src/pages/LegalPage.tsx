@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { getApp, localize } from '@/config/apps';
+import { getApp, docUrl } from '@/config/apps';
 import { useLang } from '@/i18n/lang';
 import { useT } from '@/i18n/strings';
 import DocPage from '@/components/DocPage';
@@ -15,13 +15,13 @@ export default function LegalPage() {
   const key = doc as DocKey;
   if (!app || (key !== 'privacy' && key !== 'terms')) return <NotFoundPage />;
 
-  const legal = localize(app, lang).legal[key];
+  const updated = app.legal[key].updated;
   return (
     <DocPage
       app={app}
       title={t(key)}
-      meta={legal.updated ? `${t('updated')} ${legal.updated}` : undefined}
-      md={legal.md}
+      meta={updated ? `${t('updated')} ${updated}` : undefined}
+      src={docUrl(app.slug, lang, key)}
     />
   );
 }

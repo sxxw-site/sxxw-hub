@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import type { Product } from '@/config/apps';
 import { asset } from '@/config/apps';
@@ -7,21 +8,37 @@ import Layout from './Layout';
 import Markdown from './Markdown';
 
 // 内容页(合规 / 技术支持)统一外壳:与落地页一致的品牌视觉。
-// 正文里第一行的 `# 标题` 会被 Hero 取代,避免重复。
+// 正文从 src(public 下的 .md)按需 fetch,不打进 JS 主包。
 export default function DocPage({
   app,
   title,
   meta,
-  md,
+  src,
 }: {
   app: Product;
   title: string;
   meta?: string;
-  md: string;
+  src: string;
 }) {
   const { lang } = useLang();
   const t = useT();
-  const body = md.replace(/^#\s+.*(?:\n+|$)/, '');
+  const [md, setMd] = useState<string | null>(null);
+
+  useEffect(() => {
+    let alive = true;
+    setMd(null);
+    fetch(src)
+      .then((r) => (r.ok ? r.text() : ''))
+      .then((text) => alive && setMd(text))
+      .catch(() => alive && setMd(''));
+    return () => {
+      alive = false;
+    };
+  }, [src]);
+
+  // 去掉正文首行的 `# 标题`(由 Hero 展示,避免重复)。
+  const body = md ? md.replace(/^#\s+.*(?:\n+|$)/, '') : '';
+
   return (
     <Layout>
       <div
@@ -53,7 +70,13 @@ export default function DocPage({
         </header>
 
         <article className="mod-doc">
-          {body.trim() ? <Markdown text={body} /> : <p>{t('doc_missing')}</p>}
+          {md === null ? (
+            <p className="mod-doc-loading">…</p>
+          ) : body.trim() ? (
+            <Markdown text={body} />
+          ) : (
+            <p>{t('doc_missing')}</p>
+          )}
         </article>
       </div>
     </Layout>

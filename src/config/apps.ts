@@ -7,16 +7,10 @@ export interface Feature {
   title: string;
   desc: string;
 }
-export interface LegalDoc {
-  updated: string;
-  md: string;
-}
 export interface LocaleContent {
   tagline: string;
   description: string;
   features: Feature[];
-  support: { md: string };
-  legal: { privacy: LegalDoc; terms: LegalDoc };
 }
 export interface Product {
   slug: string;
@@ -28,7 +22,13 @@ export interface Product {
   links: { appStore?: string };
   icon: string;
   screenshots: string[];
+  legal: { privacy: { updated: string }; terms: { updated: string } };
   locales: Record<Lang, LocaleContent>;
+}
+
+// 合规/支持正文文件地址(运行时 fetch)。doc: privacy | terms | support
+export function docUrl(slug: string, lang: Lang, doc: string): string {
+  return asset(`apps/${slug}/${lang}/${doc}.md`);
 }
 
 export const SITE = {
@@ -45,9 +45,9 @@ export const SITE = {
   api: 'https://api.sxxw.site',
 } as const;
 
-// 公司主体名(按语言)
+// 公司主体名:仅中文用中文全称,其余语言统一用英文法定名。
 export function companyName(lang: Lang): string {
-  return lang === 'en' ? SITE.companyEn : SITE.company;
+  return lang === 'zh' ? SITE.company : SITE.companyEn;
 }
 
 export const APPS = productsData as unknown as Product[];

@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { getApp, localize } from '@/config/apps';
+import { getApp, docUrl } from '@/config/apps';
 import { useLang } from '@/i18n/lang';
 import { useT } from '@/i18n/strings';
 import DocPage from '@/components/DocPage';
@@ -16,7 +16,7 @@ export default function SupportPage() {
     <DocPage
       app={app}
       title={t('support')}
-      md={localize(app, lang).support.md}
+      src={docUrl(app.slug, lang, 'support')}
     />
   );
 }
