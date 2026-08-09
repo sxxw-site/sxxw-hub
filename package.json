@@ -9,6 +9,7 @@
   },
   "scripts": {
     "dev": "vite --port 4321 --strictPort",
+    "sync": "node scripts/sync-apps.mjs",
     "build": "vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",

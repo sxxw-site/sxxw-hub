@@ -1,18 +1,29 @@
-// 全线产品注册表 —— 新增一个 app 就在这里加一条,首页会自动列出。
-// slug 决定路由前缀:/{slug}/、/{slug}/legal/privacy 等。
+// 产品数据由各 app 项目的 sxxw-web/ 聚合而来(见 scripts/sync-apps.mjs)。
+// 不要手改 src/content/products.json —— 改各 app 的 sxxw-web/ 后跑 `npm run sync`。
+import productsData from '@/content/products.json';
 
-export interface AppInfo {
+export interface Feature {
+  title: string;
+  desc: string;
+}
+export interface LegalDoc {
+  updated: string;
+  md: string;
+}
+export interface Product {
   slug: string;
   name: string;
+  nameZh: string;
   tagline: string;
-  /** 一句话稍长描述,用于首页产品卡片 */
-  desc?: string;
-  /** 主题色,用于卡片点缀 */
+  description: string;
+  features: Feature[];
+  platforms: string[];
   accent: string;
-  /** emoji 或占位图标 */
-  icon?: string;
-  /** 是否已上线(未上线仅占位,不在首页高亮) */
-  live?: boolean;
+  live: boolean;
+  links: { appStore?: string; support?: string; privacy?: string };
+  icon: string;
+  screenshots: string[];
+  legal: { privacy: LegalDoc; terms: LegalDoc };
 }
 
 export const SITE = {
@@ -29,34 +40,13 @@ export const SITE = {
   api: 'https://api.sxxw.site',
 } as const;
 
-export const APPS: AppInfo[] = [
-  {
-    slug: 'memoria',
-    name: 'Memoria',
-    tagline: '记录与回忆你的每一刻',
-    desc: '轻量的日记与回忆管理,把值得记住的瞬间温柔收好。',
-    accent: '#6d5ef0',
-    icon: '📖',
-    live: true,
-  },
-  {
-    slug: 'timetrails',
-    name: 'TimeTrails',
-    tagline: '追踪时间,看见轨迹',
-    desc: '直观的时间与习惯追踪,让每一分投入都被看见。',
-    accent: '#0ea5a4',
-    icon: '⏱️',
-  },
-  {
-    slug: 'traceapp',
-    name: 'TraceApp',
-    tagline: '让数据留下痕迹',
-    desc: '为你的数据建立清晰的记录与回溯路径。',
-    accent: '#f5793b',
-    icon: '🧭',
-  },
-];
+export const APPS = productsData as Product[];
 
-export function getApp(slug: string): AppInfo | undefined {
+export function getApp(slug: string): Product | undefined {
   return APPS.find((a) => a.slug === slug);
+}
+
+// public/ 下的素材需带上部署 base 前缀(项目页在 /sxxw-hub/ 子路径)。
+export function asset(path: string): string {
+  return import.meta.env.BASE_URL + path;
 }

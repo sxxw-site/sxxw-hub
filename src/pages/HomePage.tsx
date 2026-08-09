@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { APPS, SITE } from '@/config/apps';
+import { APPS, SITE, asset } from '@/config/apps';
 import SiteHeader from '@/components/SiteHeader';
 import SiteFooter from '@/components/SiteFooter';
 import '@/styles/site.css';
@@ -61,11 +61,23 @@ export default function HomePage() {
                 style={{ ['--accent' as string]: app.accent }}
               >
                 <div className="mod-card-top">
-                  <span className="mod-card-icon">{app.icon ?? '▣'}</span>
+                  <img
+                    className="mod-card-icon-img"
+                    src={asset(app.icon)}
+                    alt={`${app.name} 图标`}
+                    width={52}
+                    height={52}
+                    loading="lazy"
+                  />
                   {!app.live && <span className="mod-tag">即将上线</span>}
                 </div>
-                <h3>{app.name}</h3>
-                <p>{app.desc ?? app.tagline}</p>
+                <h3>
+                  {app.name}
+                  {app.nameZh && (
+                    <span className="mod-card-zh">{app.nameZh}</span>
+                  )}
+                </h3>
+                <p>{app.tagline}</p>
                 <span className="mod-card-arrow">了解更多 →</span>
               </Link>
             ))}
