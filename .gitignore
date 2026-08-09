@@ -1,0 +1,24 @@
+# build output
+dist/
+
+# deps
+node_modules/
+
+# editor / tooling local
+.claude/
+.vscode/
+.idea/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# env
+.env
+.env.production
+.env.*.local
+
+# macOS
+.DS_Store
