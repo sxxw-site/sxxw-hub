@@ -1,8 +1,8 @@
-# Memoria Datenschutzerklärung
+# 拾忆 · Memoria Datenschutzerklärung
 
 Gültig ab: August 7, 2026
 
-Memoria (nachfolgend die „App") ist ein Werkzeug zum Festhalten von Geburtstagen, Jahrestagen und wichtigen Tagen. Wir nehmen Ihre Privatsphäre sehr ernst. Die App hat keine Konten und keine Server und erhebt oder überträgt keine Ihrer personenbezogenen Daten an uns.
+拾忆 · Memoria (nachfolgend die „App") ist ein Werkzeug zum Festhalten von Geburtstagen, Jahrestagen und wichtigen Tagen. Wir nehmen Ihre Privatsphäre sehr ernst. Die App hat keine Konten und keine Server und erhebt oder überträgt keine Ihrer personenbezogenen Daten an uns.
 
 ## 1. Welche Informationen wir erheben
 Wir erheben keine personenbezogenen Daten. Die Inhalte, die Sie in der App erstellen (wie Namen, Daten, Notizen und Farben), werden ausschließlich lokal auf Ihrem Gerät gespeichert.

@@ -1,6 +1,6 @@
-# Soporte de Memoria
+# Soporte de 拾忆 · Memoria
 
-Memoria — Aniversarios · Cumpleaños · Cuentas regresivas. Si tienes algún problema o alguna sugerencia, nos encantaría saber de ti.
+拾忆 · Memoria — Aniversarios · Cumpleaños · Cuentas regresivas. Si tienes algún problema o alguna sugerencia, nos encantaría saber de ti.
 
 ## Contacto
 Para cualquier pregunta, sugerencia o comentario, no dudes en escribirnos a: neverfall@foxmail.com, y te responderemos lo antes posible.

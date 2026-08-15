@@ -1,6 +1,6 @@
-# Memoria Support
+# 拾忆 · Memoria Support
 
-Memoria — Anniversaries · Birthdays · Countdowns. If you run into any problems or have suggestions, we'd love to hear from you.
+拾忆 · Memoria — Anniversaries · Birthdays · Countdowns. If you run into any problems or have suggestions, we'd love to hear from you.
 
 ## Contact
 For any questions, suggestions, or feedback, feel free to email us at: neverfall@foxmail.com, and we'll reply as soon as we can.

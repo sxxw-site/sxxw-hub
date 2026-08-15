@@ -1,8 +1,8 @@
 [
   {
     "slug": "memoria",
-    "name": "Memoria",
-    "nameZh": "拾忆",
+    "name": "拾忆 · Memoria",
+    "nameZh": "",
     "platforms": ["iOS", "iPadOS", "watchOS"],
     "accent": "#FF9F0A",
     "live": true,
@@ -28,7 +28,7 @@
     "locales": {
       "zh": {
         "tagline": "记录生日、纪念日与重要日子，让时间被温柔看见",
-        "description": "Memoria（拾忆）是一款专注记录重要日子的纪念日与倒数应用。生日、纪念日、恋爱周年、节日，还有属于你自己的人生进度，都能在这里被温柔地保存。用倒数看见「还有多少天」，用正计时留住「已经多少天」。无账号、无广告、无第三方追踪，数据只存于设备与你的 iCloud 私有库。",
+        "description": "拾忆 · Memoria是一款专注记录重要日子的纪念日与倒数应用。生日、纪念日、恋爱周年、节日，还有属于你自己的人生进度，都能在这里被温柔地保存。用倒数看见「还有多少天」，用正计时留住「已经多少天」。无账号、无广告、无第三方追踪，数据只存于设备与你的 iCloud 私有库。",
         "features": [
           {
             "title": "多类型记录",
@@ -58,7 +58,7 @@
       },
       "en": {
         "tagline": "Record birthdays, anniversaries, and the days that matter, so time is seen with tenderness",
-        "description": "Memoria is an anniversary and countdown app made for the days that matter. Birthdays, anniversaries, relationship milestones, holidays, and your own personal life progress are all kept here, gently. Count down to see how many days are left, and count up to hold on to how many days have passed. No account, no ads, no third-party tracking. Your data lives only on your device and in your private iCloud library.",
+        "description": "拾忆 · Memoria is an anniversary and countdown app made for the days that matter. Birthdays, anniversaries, relationship milestones, holidays, and your own personal life progress are all kept here, gently. Count down to see how many days are left, and count up to hold on to how many days have passed. No account, no ads, no third-party tracking. Your data lives only on your device and in your private iCloud library.",
         "features": [
           {
             "title": "Every Kind of Occasion",
@@ -88,7 +88,7 @@
       },
       "es": {
         "tagline": "Registra cumpleaños, aniversarios y los días que importan, para que el tiempo se vea con ternura",
-        "description": "Memoria es una app de aniversarios y cuentas regresivas hecha para los días que importan. Los cumpleaños, aniversarios, hitos de relación, festividades y tu propio progreso de vida se guardan aquí, con delicadeza. Haz una cuenta regresiva para ver cuántos días quedan, y una cuenta progresiva para conservar cuántos días han pasado. Sin cuenta, sin anuncios, sin rastreo de terceros. Tus datos residen únicamente en tu dispositivo y en tu biblioteca privada de iCloud.",
+        "description": "拾忆 · Memoria es una app de aniversarios y cuentas regresivas hecha para los días que importan. Los cumpleaños, aniversarios, hitos de relación, festividades y tu propio progreso de vida se guardan aquí, con delicadeza. Haz una cuenta regresiva para ver cuántos días quedan, y una cuenta progresiva para conservar cuántos días han pasado. Sin cuenta, sin anuncios, sin rastreo de terceros. Tus datos residen únicamente en tu dispositivo y en tu biblioteca privada de iCloud.",
         "features": [
           {
             "title": "Todo tipo de ocasiones",
@@ -118,7 +118,7 @@
       },
       "fr": {
         "tagline": "Enregistrez les anniversaires, les dates commémoratives et les jours qui comptent, pour que le temps soit vu avec tendresse",
-        "description": "Memoria est une application de dates commémoratives et de comptes à rebours conçue pour les jours qui comptent. Anniversaires, dates commémoratives, étapes de couple, fêtes et votre propre progression de vie personnelle sont tous conservés ici, avec délicatesse. Faites un compte à rebours pour voir combien de jours il reste, et un décompte croissant pour retenir combien de jours se sont écoulés. Pas de compte, pas de publicité, pas de suivi tiers. Vos données ne résident que sur votre appareil et dans votre bibliothèque iCloud privée.",
+        "description": "拾忆 · Memoria est une application de dates commémoratives et de comptes à rebours conçue pour les jours qui comptent. Anniversaires, dates commémoratives, étapes de couple, fêtes et votre propre progression de vie personnelle sont tous conservés ici, avec délicatesse. Faites un compte à rebours pour voir combien de jours il reste, et un décompte croissant pour retenir combien de jours se sont écoulés. Pas de compte, pas de publicité, pas de suivi tiers. Vos données ne résident que sur votre appareil et dans votre bibliothèque iCloud privée.",
         "features": [
           {
             "title": "Toutes sortes d'occasions",
@@ -148,7 +148,7 @@
       },
       "de": {
         "tagline": "Halten Sie Geburtstage, Jahrestage und die Tage fest, die zählen, damit die Zeit mit Zärtlichkeit gesehen wird",
-        "description": "Memoria ist eine App für Jahrestage und Countdowns, gemacht für die Tage, die zählen. Geburtstage, Jahrestage, Meilensteine von Beziehungen, Feiertage und Ihr eigener persönlicher Lebensfortschritt werden hier behutsam bewahrt. Zählen Sie herunter, um zu sehen, wie viele Tage noch bleiben, und zählen Sie hoch, um festzuhalten, wie viele Tage vergangen sind. Kein Konto, keine Werbung, kein Tracking durch Dritte. Ihre Daten leben ausschließlich auf Ihrem Gerät und in Ihrer privaten iCloud-Bibliothek.",
+        "description": "拾忆 · Memoria ist eine App für Jahrestage und Countdowns, gemacht für die Tage, die zählen. Geburtstage, Jahrestage, Meilensteine von Beziehungen, Feiertage und Ihr eigener persönlicher Lebensfortschritt werden hier behutsam bewahrt. Zählen Sie herunter, um zu sehen, wie viele Tage noch bleiben, und zählen Sie hoch, um festzuhalten, wie viele Tage vergangen sind. Kein Konto, keine Werbung, kein Tracking durch Dritte. Ihre Daten leben ausschließlich auf Ihrem Gerät und in Ihrer privaten iCloud-Bibliothek.",
         "features": [
           {
             "title": "Jeder Anlass",
@@ -178,7 +178,7 @@
       },
       "ja": {
         "tagline": "誕生日、記念日、そして大切な日を記録し、時間をやさしく見つめる",
-        "description": "Memoria は、大切な日のために作られた記念日・カウントダウンアプリです。誕生日、記念日、恋愛のマイルストーン、祝日、そしてあなた自身の人生の進捗まで、すべてをここにやさしく残せます。カウントダウンで「あと何日」を見つめ、カウントアップで「もう何日経ったか」を留めておきましょう。アカウントなし、広告なし、第三者トラッキングなし。あなたのデータはお使いのデバイスとプライベートな iCloud ライブラリにのみ保存されます。",
+        "description": "拾忆 · Memoria は、大切な日のために作られた記念日・カウントダウンアプリです。誕生日、記念日、恋愛のマイルストーン、祝日、そしてあなた自身の人生の進捗まで、すべてをここにやさしく残せます。カウントダウンで「あと何日」を見つめ、カウントアップで「もう何日経ったか」を留めておきましょう。アカウントなし、広告なし、第三者トラッキングなし。あなたのデータはお使いのデバイスとプライベートな iCloud ライブラリにのみ保存されます。",
         "features": [
           {
             "title": "あらゆる記念日に対応",
@@ -208,7 +208,7 @@
       },
       "ko": {
         "tagline": "생일, 기념일, 그리고 소중한 날들을 기록하여 시간이 따스하게 보이도록 합니다",
-        "description": "Memoria는 소중한 날들을 위해 만들어진 기념일 및 카운트다운 앱입니다. 생일, 기념일, 연애 이정표, 명절, 그리고 여러분만의 개인적인 인생 진행률까지 모두 이곳에 따스하게 보관됩니다. 카운트다운으로 며칠이 남았는지 보고, 카운트업으로 며칠이 지났는지 간직하세요. 계정도, 광고도, 제3자 추적도 없습니다. 여러분의 데이터는 오직 여러분의 기기와 개인 iCloud 라이브러리에만 저장됩니다.",
+        "description": "拾忆 · Memoria는 소중한 날들을 위해 만들어진 기념일 및 카운트다운 앱입니다. 생일, 기념일, 연애 이정표, 명절, 그리고 여러분만의 개인적인 인생 진행률까지 모두 이곳에 따스하게 보관됩니다. 카운트다운으로 며칠이 남았는지 보고, 카운트업으로 며칠이 지났는지 간직하세요. 계정도, 광고도, 제3자 추적도 없습니다. 여러분의 데이터는 오직 여러분의 기기와 개인 iCloud 라이브러리에만 저장됩니다.",
         "features": [
           {
             "title": "모든 종류의 기념일",
@@ -238,7 +238,7 @@
       },
       "pt": {
         "tagline": "Registre aniversários, datas comemorativas e os dias que importam, para que o tempo seja visto com ternura",
-        "description": "O Memoria é um app de datas comemorativas e contagem regressiva feito para os dias que importam. Aniversários, datas comemorativas, marcos de relacionamento, feriados e o seu próprio progresso de vida pessoal são todos guardados aqui, com carinho. Faça a contagem regressiva para ver quantos dias faltam, e a contagem progressiva para guardar quantos dias já se passaram. Sem conta, sem anúncios, sem rastreamento de terceiros. Seus dados vivem apenas no seu dispositivo e na sua biblioteca privada do iCloud.",
+        "description": "O 拾忆 · Memoria é um app de datas comemorativas e contagem regressiva feito para os dias que importam. Aniversários, datas comemorativas, marcos de relacionamento, feriados e o seu próprio progresso de vida pessoal são todos guardados aqui, com carinho. Faça a contagem regressiva para ver quantos dias faltam, e a contagem progressiva para guardar quantos dias já se passaram. Sem conta, sem anúncios, sem rastreamento de terceiros. Seus dados vivem apenas no seu dispositivo e na sua biblioteca privada do iCloud.",
         "features": [
           {
             "title": "Todo Tipo de Ocasião",
@@ -268,7 +268,7 @@
       },
       "ru": {
         "tagline": "Записывайте дни рождения, годовщины и важные дни, чтобы время было видно с нежностью",
-        "description": "Memoria — это приложение для годовщин и обратного отсчёта, созданное для дней, которые имеют значение. Дни рождения, годовщины, вехи отношений, праздники и ваш собственный жизненный прогресс — всё бережно хранится здесь. Ведите обратный отсчёт, чтобы видеть, сколько дней осталось, и прямой отсчёт, чтобы сохранить, сколько дней прошло. Никаких учётных записей, рекламы или стороннего отслеживания. Ваши данные живут только на вашем устройстве и в вашей частной библиотеке iCloud.",
+        "description": "拾忆 · Memoria — это приложение для годовщин и обратного отсчёта, созданное для дней, которые имеют значение. Дни рождения, годовщины, вехи отношений, праздники и ваш собственный жизненный прогресс — всё бережно хранится здесь. Ведите обратный отсчёт, чтобы видеть, сколько дней осталось, и прямой отсчёт, чтобы сохранить, сколько дней прошло. Никаких учётных записей, рекламы или стороннего отслеживания. Ваши данные живут только на вашем устройстве и в вашей частной библиотеке iCloud.",
         "features": [
           {
             "title": "Любой повод",
@@ -298,7 +298,7 @@
       },
       "ar": {
         "tagline": "سجّل أعياد الميلاد والذكرى السنوية والأيام التي تهمّك، ليُرى الوقت بلطف",
-        "description": "Memoria تطبيق للذكرى السنوية والعدّ التنازلي صُمّم للأيام التي تهمّك. أعياد الميلاد، والذكرى السنوية، ومحطات العلاقات، والأعياد، وتقدّم حياتك الشخصية، كلها محفوظة هنا بلطف. عُدّ تنازليًا لترى كم يومًا تبقّى، وعُدّ تصاعديًا لتحتفظ بعدد الأيام التي مضت. بلا حساب، وبلا إعلانات، وبلا تتبّع من أطراف ثالثة. تعيش بياناتك على جهازك وفي مكتبة iCloud الخاصة بك فقط.",
+        "description": "拾忆 · Memoria تطبيق للذكرى السنوية والعدّ التنازلي صُمّم للأيام التي تهمّك. أعياد الميلاد، والذكرى السنوية، ومحطات العلاقات، والأعياد، وتقدّم حياتك الشخصية، كلها محفوظة هنا بلطف. عُدّ تنازليًا لترى كم يومًا تبقّى، وعُدّ تصاعديًا لتحتفظ بعدد الأيام التي مضت. بلا حساب، وبلا إعلانات، وبلا تتبّع من أطراف ثالثة. تعيش بياناتك على جهازك وفي مكتبة iCloud الخاصة بك فقط.",
         "features": [
           {
             "title": "كل مناسبة على حِدة",
@@ -328,7 +328,7 @@
       },
       "hi": {
         "tagline": "जन्मदिन, वर्षगाँठ और मायने रखने वाले दिनों को दर्ज करें, ताकि समय को कोमलता से देखा जा सके",
-        "description": "Memoria एक वर्षगाँठ और उलटी गिनती ऐप है जो उन दिनों के लिए बना है जो मायने रखते हैं। जन्मदिन, वर्षगाँठ, रिश्तों के पड़ाव, त्योहार, और आपकी अपनी व्यक्तिगत जीवन प्रगति, ये सब यहाँ कोमलता से सहेजे जाते हैं। यह देखने के लिए उलटी गिनती करें कि कितने दिन बाकी हैं, और यह याद रखने के लिए आगे की गिनती करें कि कितने दिन बीत चुके हैं। कोई खाता नहीं, कोई विज्ञापन नहीं, कोई तृतीय-पक्ष ट्रैकिंग नहीं। आपका डेटा केवल आपके डिवाइस और आपके निजी iCloud पुस्तकालय में रहता है।",
+        "description": "拾忆 · Memoria एक वर्षगाँठ और उलटी गिनती ऐप है जो उन दिनों के लिए बना है जो मायने रखते हैं। जन्मदिन, वर्षगाँठ, रिश्तों के पड़ाव, त्योहार, और आपकी अपनी व्यक्तिगत जीवन प्रगति, ये सब यहाँ कोमलता से सहेजे जाते हैं। यह देखने के लिए उलटी गिनती करें कि कितने दिन बाकी हैं, और यह याद रखने के लिए आगे की गिनती करें कि कितने दिन बीत चुके हैं। कोई खाता नहीं, कोई विज्ञापन नहीं, कोई तृतीय-पक्ष ट्रैकिंग नहीं। आपका डेटा केवल आपके डिवाइस और आपके निजी iCloud पुस्तकालय में रहता है।",
         "features": [
           {
             "title": "हर तरह का अवसर",
@@ -358,7 +358,7 @@
       },
       "it": {
         "tagline": "Registra compleanni, anniversari e i giorni che contano, così che il tempo sia visto con tenerezza",
-        "description": "Memoria è un'app per anniversari e conti alla rovescia pensata per i giorni che contano. Compleanni, anniversari, traguardi di coppia, festività e il tuo personale progresso di vita sono conservati qui, con delicatezza. Fai il conto alla rovescia per vedere quanti giorni mancano, e conta in avanti per trattenere quanti giorni sono passati. Nessun account, nessuna pubblicità, nessun tracciamento di terze parti. I tuoi dati vivono solo sul tuo dispositivo e nella tua libreria iCloud privata.",
+        "description": "拾忆 · Memoria è un'app per anniversari e conti alla rovescia pensata per i giorni che contano. Compleanni, anniversari, traguardi di coppia, festività e il tuo personale progresso di vita sono conservati qui, con delicatezza. Fai il conto alla rovescia per vedere quanti giorni mancano, e conta in avanti per trattenere quanti giorni sono passati. Nessun account, nessuna pubblicità, nessun tracciamento di terze parti. I tuoi dati vivono solo sul tuo dispositivo e nella tua libreria iCloud privata.",
         "features": [
           {
             "title": "Ogni tipo di occasione",

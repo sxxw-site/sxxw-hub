@@ -1,8 +1,8 @@
-# Memoria Nutzungsbedingungen
+# 拾忆 · Memoria Nutzungsbedingungen
 
 Zuletzt aktualisiert: August 9, 2026
 
-Willkommen bei Memoria (nachfolgend die „App"). Die App wird von Shanghai Shuxia Xiaowu Network Technology Co., Ltd. (nachfolgend „wir" oder „uns") entwickelt und betrieben. Diese Bedingungen stellen eine Vereinbarung zwischen Ihnen und uns über Ihre Nutzung der App und der zugehörigen Dienste dar. Bitte lesen Sie vor der Nutzung alle Bestimmungen sorgfältig durch und verstehen Sie sie vollständig. Durch das Herunterladen, Installieren, Starten oder Nutzen der App gelten Sie als jemand, der alle diese Bedingungen gelesen und akzeptiert hat; wenn Sie nicht einverstanden sind, beenden Sie bitte die Nutzung der App und deinstallieren Sie sie.
+Willkommen bei 拾忆 · Memoria (nachfolgend die „App"). Die App wird von Shanghai Shuxia Xiaowu Network Technology Co., Ltd. (nachfolgend „wir" oder „uns") entwickelt und betrieben. Diese Bedingungen stellen eine Vereinbarung zwischen Ihnen und uns über Ihre Nutzung der App und der zugehörigen Dienste dar. Bitte lesen Sie vor der Nutzung alle Bestimmungen sorgfältig durch und verstehen Sie sie vollständig. Durch das Herunterladen, Installieren, Starten oder Nutzen der App gelten Sie als jemand, der alle diese Bedingungen gelesen und akzeptiert hat; wenn Sie nicht einverstanden sind, beenden Sie bitte die Nutzung der App und deinstallieren Sie sie.
 
 ## 1. Geltungsbereich und Parteien
 Diese Bedingungen werden zwischen Ihnen und Shanghai Shuxia Xiaowu Network Technology Co., Ltd. geschlossen und gelten für Ihre gesamte Nutzung der App sowie ihrer Funktionen und Dienste.

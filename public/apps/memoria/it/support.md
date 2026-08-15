@@ -1,6 +1,6 @@
-# Assistenza Memoria
+# Assistenza 拾忆 · Memoria
 
-Memoria — Anniversari · Compleanni · Conti alla rovescia. Se riscontri problemi o hai suggerimenti, saremo felici di sentirti.
+拾忆 · Memoria — Anniversari · Compleanni · Conti alla rovescia. Se riscontri problemi o hai suggerimenti, saremo felici di sentirti.
 
 ## Contatti
 Per qualsiasi domanda, suggerimento o feedback, scrivici pure all'indirizzo: neverfall@foxmail.com, e ti risponderemo il prima possibile.

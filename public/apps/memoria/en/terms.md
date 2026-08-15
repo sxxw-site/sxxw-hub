@@ -1,8 +1,8 @@
-# Memoria Terms of Service
+# 拾忆 · Memoria Terms of Service
 
 Last updated: August 9, 2026
 
-Welcome to Memoria (hereinafter the "App"). The App is developed and operated by Shanghai Shuxia Xiaowu Network Technology Co., Ltd. (hereinafter "we" or "us"). These Terms constitute an agreement between you and us regarding your use of the App and related services. Please read and fully understand all provisions carefully before use. By downloading, installing, launching, or using the App, you are deemed to have read and agreed to accept all of these Terms; if you do not agree, please stop using the App and uninstall it.
+Welcome to 拾忆 · Memoria (hereinafter the "App"). The App is developed and operated by Shanghai Shuxia Xiaowu Network Technology Co., Ltd. (hereinafter "we" or "us"). These Terms constitute an agreement between you and us regarding your use of the App and related services. Please read and fully understand all provisions carefully before use. By downloading, installing, launching, or using the App, you are deemed to have read and agreed to accept all of these Terms; if you do not agree, please stop using the App and uninstall it.
 
 ## 1. Scope and Parties
 These Terms are entered into between you and Shanghai Shuxia Xiaowu Network Technology Co., Ltd., and apply to all of your use of the App and its features and services.

@@ -1,8 +1,8 @@
-# Informativa sulla privacy di Memoria
+# Informativa sulla privacy di 拾忆 · Memoria
 
 Data di entrata in vigore: August 7, 2026
 
-Memoria (di seguito la "App") è uno strumento per registrare compleanni, anniversari e giorni importanti. Prendiamo molto sul serio la tua privacy. L'App non prevede account né server e non raccoglie né carica alcuna delle tue informazioni personali sui nostri sistemi.
+拾忆 · Memoria (di seguito la "App") è uno strumento per registrare compleanni, anniversari e giorni importanti. Prendiamo molto sul serio la tua privacy. L'App non prevede account né server e non raccoglie né carica alcuna delle tue informazioni personali sui nostri sistemi.
 
 ## 1. Quali informazioni raccogliamo
 Non raccogliamo alcuna informazione personale. I contenuti che crei nell'App (come nomi, date, note e colori) sono memorizzati esclusivamente in locale sul tuo dispositivo.

@@ -1,8 +1,8 @@
-# Memoria Privacy Policy
+# 拾忆 · Memoria Privacy Policy
 
 Effective date: August 7, 2026
 
-Memoria (hereinafter the "App") is a tool for recording birthdays, anniversaries, and important days. We take your privacy very seriously. The App has no accounts and no servers, and it does not collect or upload any of your personal information to us.
+拾忆 · Memoria (hereinafter the "App") is a tool for recording birthdays, anniversaries, and important days. We take your privacy very seriously. The App has no accounts and no servers, and it does not collect or upload any of your personal information to us.
 
 ## 1. What Information We Collect
 We do not collect any personal information. The content you create in the App (such as names, dates, notes, and colors) is stored only locally on your device.

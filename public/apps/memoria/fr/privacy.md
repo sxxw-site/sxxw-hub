@@ -1,8 +1,8 @@
-# Politique de confidentialité de Memoria
+# Politique de confidentialité de 拾忆 · Memoria
 
 Date d'entrée en vigueur : August 7, 2026
 
-Memoria (ci-après l'« Application ») est un outil pour enregistrer les anniversaires, les dates commémoratives et les jours importants. Nous prenons votre vie privée très au sérieux. L'Application ne comporte ni comptes ni serveurs, et elle ne collecte ni ne téléverse aucune de vos informations personnelles vers nous.
+拾忆 · Memoria (ci-après l'« Application ») est un outil pour enregistrer les anniversaires, les dates commémoratives et les jours importants. Nous prenons votre vie privée très au sérieux. L'Application ne comporte ni comptes ni serveurs, et elle ne collecte ni ne téléverse aucune de vos informations personnelles vers nous.
 
 ## 1. Quelles informations nous collectons
 Nous ne collectons aucune information personnelle. Le contenu que vous créez dans l'Application (comme les noms, les dates, les notes et les couleurs) est stocké uniquement localement sur votre appareil.
