@@ -1,6 +1,6 @@
 # 拾忆 · Memoria Privacy Policy
 
-Effective date: August 7, 2026
+Effective date: August 15, 2026
 
 拾忆 · Memoria (hereinafter the "App") is a tool for recording birthdays, anniversaries, and important days. We take your privacy very seriously. The App has no accounts and no servers, and it does not collect or upload any of your personal information to us.
 
@@ -28,5 +28,9 @@ The App does not target children under the age of 13 for information collection;
 ## 8. Changes to This Policy
 If this policy is updated, we will publish the latest version on this page and update the effective date.
 
-## 9. Contact Us
+## 9. App Distribution Platforms
+
+The App is available through the Apple App Store (display name “拾忆 · Memoria”) and Huawei AppGallery (display name “拾忆”). The stores may process information related to downloads, accounts, purchases, or reviews under their own privacy policies; that information is not collected or controlled by the App. Except for iCloud sync on Apple devices as described in Section 2, the App does not transmit your names, dates, notes, or other in-app records to Apple or Huawei.
+
+## 10. Contact Us
 If you have any questions about privacy, please contact: neverfall@foxmail.com

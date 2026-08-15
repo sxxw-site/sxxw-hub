@@ -1,6 +1,6 @@
 # Politique de confidentialité de 拾忆 · Memoria
 
-Date d'entrée en vigueur : August 7, 2026
+Date d'entrée en vigueur : August 15, 2026
 
 拾忆 · Memoria (ci-après l'« Application ») est un outil pour enregistrer les anniversaires, les dates commémoratives et les jours importants. Nous prenons votre vie privée très au sérieux. L'Application ne comporte ni comptes ni serveurs, et elle ne collecte ni ne téléverse aucune de vos informations personnelles vers nous.
 
@@ -28,5 +28,9 @@ L'Application ne cible pas les enfants de moins de 13 ans pour la collecte d'inf
 ## 8. Modifications de cette politique
 Si cette politique est mise à jour, nous publierons la dernière version sur cette page et mettrons à jour la date d'entrée en vigueur.
 
-## 9. Nous contacter
+## 9. Plateformes de distribution de l’application
+
+L’application est disponible sur l’Apple App Store (nom affiché « 拾忆 · Memoria ») et Huawei AppGallery (nom affiché « 拾忆 »). Les boutiques peuvent traiter des informations liées aux téléchargements, comptes, achats ou avis conformément à leurs propres politiques de confidentialité ; ces informations ne sont ni collectées ni contrôlées par l’application. À l’exception de la synchronisation iCloud sur les appareils Apple décrite à la section 2, l’application ne transmet pas vos noms, dates, notes ou autres données enregistrées dans l’application à Apple ou Huawei.
+
+## 10. Nous contacter
 Si vous avez des questions concernant la confidentialité, veuillez contacter : neverfall@foxmail.com

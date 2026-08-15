@@ -1,6 +1,6 @@
 # 拾忆 · Memoria Datenschutzerklärung
 
-Gültig ab: August 7, 2026
+Gültig ab: August 15, 2026
 
 拾忆 · Memoria (nachfolgend die „App") ist ein Werkzeug zum Festhalten von Geburtstagen, Jahrestagen und wichtigen Tagen. Wir nehmen Ihre Privatsphäre sehr ernst. Die App hat keine Konten und keine Server und erhebt oder überträgt keine Ihrer personenbezogenen Daten an uns.
 
@@ -28,5 +28,9 @@ Die App richtet sich nicht an Kinder unter 13 Jahren zur Erhebung von Informatio
 ## 8. Änderungen dieser Richtlinie
 Wenn diese Richtlinie aktualisiert wird, veröffentlichen wir die neueste Version auf dieser Seite und aktualisieren das Datum des Inkrafttretens.
 
-## 9. Kontakt
+## 9. Vertriebsplattformen
+
+Die App ist über den Apple App Store (Anzeigename „拾忆 · Memoria“) und die Huawei AppGallery (Anzeigename „拾忆“) erhältlich. Die App-Stores können Informationen zu Downloads, Konten, Käufen oder Bewertungen gemäß ihren eigenen Datenschutzrichtlinien verarbeiten; diese Informationen werden nicht von der App erhoben oder kontrolliert. Mit Ausnahme der in Abschnitt 2 beschriebenen iCloud-Synchronisierung auf Apple-Geräten übermittelt die App keine Namen, Daten, Notizen oder sonstigen App-Inhalte an Apple oder Huawei.
+
+## 10. Kontakt
 Wenn Sie Fragen zum Datenschutz haben, kontaktieren Sie uns bitte unter: neverfall@foxmail.com

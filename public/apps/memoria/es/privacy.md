@@ -1,6 +1,6 @@
 # Política de Privacidad de 拾忆 · Memoria
 
-Fecha de entrada en vigor: 7 de agosto de 2026
+Fecha de entrada en vigor: 15 de agosto de 2026
 
 拾忆 · Memoria (en adelante, la "App") es una herramienta para registrar cumpleaños, aniversarios y días importantes. Nos tomamos tu privacidad muy en serio. La App no tiene cuentas ni servidores, y no recopila ni sube ninguna de tus datos personales a nosotros.
 
@@ -28,5 +28,9 @@ La App no está dirigida a la recopilación de información de menores de 13 añ
 ## 8. Cambios en esta política
 Si esta política se actualiza, publicaremos la versión más reciente en esta página y actualizaremos la fecha de entrada en vigor.
 
-## 9. Contáctanos
+## 9. Plataformas de distribución de la app
+
+La app está disponible en Apple App Store (nombre mostrado «拾忆 · Memoria») y Huawei AppGallery (nombre mostrado «拾忆»). Las tiendas pueden procesar información relacionada con descargas, cuentas, compras o reseñas conforme a sus propias políticas de privacidad; la app no recopila ni controla esa información. Salvo la sincronización de iCloud en dispositivos Apple descrita en la sección 2, la app no transmite tus nombres, fechas, notas ni otros registros de la app a Apple ni a Huawei.
+
+## 10. Contáctanos
 Si tienes alguna pregunta sobre la privacidad, ponte en contacto con: neverfall@foxmail.com
