@@ -1,4 +1,4 @@
-# Memoria · 拾忆 गोपनीयता नीति
+# Memoria · 拾忆 — App Store 隐私政策
 
 प्रभावी तिथि: August 15, 2026
 
@@ -28,9 +28,10 @@ Memoria · 拾忆 (आगे "ऐप") जन्मदिन, वर्षगा
 ## 8. इस नीति में परिवर्तन
 यदि यह नीति अद्यतन की जाती है, तो हम इस पृष्ठ पर नवीनतम संस्करण प्रकाशित करेंगे और प्रभावी तिथि अद्यतन करेंगे।
 
-## 9. ऐप वितरण प्लेटफ़ॉर्म
+## 9. App Store Version
 
-ऐप Apple App Store (प्रदर्शित नाम “Memoria · 拾忆”) और Huawei AppGallery (प्रदर्शित नाम “拾忆”) पर उपलब्ध है। स्टोर अपनी गोपनीयता नीतियों के अनुसार डाउनलोड, खातों, खरीदारी या समीक्षाओं से संबंधित जानकारी संसाधित कर सकते हैं; यह जानकारी ऐप द्वारा एकत्र या नियंत्रित नहीं की जाती। अनुभाग 2 में वर्णित Apple उपकरणों के iCloud सिंक को छोड़कर, ऐप आपके नाम, तिथियाँ, नोट्स या अन्य ऐप रिकॉर्ड Apple या Huawei को प्रेषित नहीं करता।
+This privacy policy applies to the App Store version of Memoria · 拾忆. Apple may process download, account, purchase, or review information under its own privacy policy; the App does not collect or control that information. In-app data syncs only through the iCloud private database described in Section 2, which the developer cannot access.
 
 ## 10. हमसे संपर्क करें
 यदि आपके पास गोपनीयता के बारे में कोई प्रश्न हैं, तो कृपया संपर्क करें: neverfall@foxmail.com
+

@@ -1,4 +1,4 @@
-# Politique de confidentialité de Memoria · 拾忆
+# Memoria · 拾忆 — App Store 隐私政策
 
 Date d'entrée en vigueur : August 15, 2026
 
@@ -28,9 +28,10 @@ L'Application ne cible pas les enfants de moins de 13 ans pour la collecte d'inf
 ## 8. Modifications de cette politique
 Si cette politique est mise à jour, nous publierons la dernière version sur cette page et mettrons à jour la date d'entrée en vigueur.
 
-## 9. Plateformes de distribution de l’application
+## 9. App Store Version
 
-L’application est disponible sur l’Apple App Store (nom affiché « Memoria · 拾忆 ») et Huawei AppGallery (nom affiché « 拾忆 »). Les boutiques peuvent traiter des informations liées aux téléchargements, comptes, achats ou avis conformément à leurs propres politiques de confidentialité ; ces informations ne sont ni collectées ni contrôlées par l’application. À l’exception de la synchronisation iCloud sur les appareils Apple décrite à la section 2, l’application ne transmet pas vos noms, dates, notes ou autres données enregistrées dans l’application à Apple ou Huawei.
+This privacy policy applies to the App Store version of Memoria · 拾忆. Apple may process download, account, purchase, or review information under its own privacy policy; the App does not collect or control that information. In-app data syncs only through the iCloud private database described in Section 2, which the developer cannot access.
 
 ## 10. Nous contacter
 Si vous avez des questions concernant la confidentialité, veuillez contacter : neverfall@foxmail.com
+

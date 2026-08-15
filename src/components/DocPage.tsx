@@ -15,11 +15,13 @@ export default function DocPage({
   title,
   meta,
   src,
+  tabs,
 }: {
   app: Product;
   title: string;
   meta?: string;
   src: string;
+  tabs?: { label: string; to: string; active: boolean }[];
 }) {
   const { lang } = useLang();
   const t = useT();
@@ -70,6 +72,21 @@ export default function DocPage({
             </div>
           </div>
         </header>
+
+        {tabs && (
+          <nav className="mod-doc-tabs" aria-label="Privacy policy platform">
+            {tabs.map((tab) => (
+              <Link
+                key={tab.to}
+                className={`mod-doc-tab${tab.active ? ' is-active' : ''}`}
+                to={tab.to}
+                aria-current={tab.active ? 'page' : undefined}
+              >
+                {tab.label}
+              </Link>
+            ))}
+          </nav>
+        )}
 
         <article className="mod-doc">
           {md === null ? (

@@ -1,4 +1,4 @@
-# Memoria · 拾忆 개인정보 처리방침
+# Memoria · 拾忆 — App Store 隐私政策
 
 시행일: August 15, 2026
 
@@ -28,9 +28,10 @@ iCloud에 로그인되어 있고 동기화를 활성화한 경우, 여러분의 
 ## 8. 본 방침의 변경
 본 방침이 업데이트되면, 저희는 이 페이지에 최신 버전을 게시하고 시행일을 갱신합니다.
 
-## 9. 앱 배포 플랫폼
+## 9. App Store Version
 
-앱은 Apple App Store(표시 이름 “Memoria · 拾忆”) 및 Huawei AppGallery(표시 이름 “拾忆”)에서 제공됩니다. 각 스토어는 자체 개인정보 처리방침에 따라 다운로드, 계정, 구매 또는 리뷰와 관련된 정보를 처리할 수 있으며, 이러한 정보는 앱이 수집하거나 관리하지 않습니다. 제2절에 설명된 Apple 기기의 iCloud 동기화를 제외하면, 앱은 이름, 날짜, 메모 또는 기타 앱 내 기록을 Apple이나 Huawei에 전송하지 않습니다.
+This privacy policy applies to the App Store version of Memoria · 拾忆. Apple may process download, account, purchase, or review information under its own privacy policy; the App does not collect or control that information. In-app data syncs only through the iCloud private database described in Section 2, which the developer cannot access.
 
 ## 10. 문의하기
 개인정보에 관한 문의 사항이 있으시면 다음으로 연락해 주십시오: neverfall@foxmail.com
+

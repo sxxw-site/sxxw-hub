@@ -31,6 +31,19 @@ export function docUrl(slug: string, lang: Lang, doc: string): string {
   return asset(`apps/${slug}/${lang}/${doc}.md`);
 }
 
+// 拾忆隐私政策按发行渠道分别维护：App Store 与华为应用市场。
+export function privacyDocUrl(
+  slug: string,
+  lang: Lang,
+  store: 'app-store' | 'huawei',
+): string {
+  // 华为版现提供中英文合规正文；其余语言回退至英文，避免错误复用
+  // 包含 iCloud 描述的 App Store 文案。
+  const documentLang =
+    store === 'huawei' && lang !== 'zh' && lang !== 'en' ? 'en' : lang;
+  return asset(`apps/${slug}/${documentLang}/privacy.${store}.md`);
+}
+
 export const SITE = {
   brand: '树下小屋',
   brandEn: 'sxxw',

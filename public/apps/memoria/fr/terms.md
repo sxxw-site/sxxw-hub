@@ -1,8 +1,8 @@
-# Conditions d'utilisation de 拾忆 · Memoria
+# Conditions d'utilisation de Memoria · 拾忆
 
 Dernière mise à jour : August 9, 2026
 
-Bienvenue sur 拾忆 · Memoria (ci-après l'« Application »). L'Application est développée et exploitée par Shanghai Shuxia Xiaowu Network Technology Co., Ltd. (ci-après « nous » ou « notre »). Ces Conditions constituent un accord entre vous et nous concernant votre utilisation de l'Application et des services associés. Veuillez lire et bien comprendre attentivement toutes les dispositions avant utilisation. En téléchargeant, installant, lançant ou utilisant l'Application, vous êtes réputé avoir lu et accepté l'ensemble de ces Conditions ; si vous n'êtes pas d'accord, veuillez cesser d'utiliser l'Application et la désinstaller.
+Bienvenue sur Memoria · 拾忆 (ci-après l'« Application »). L'Application est développée et exploitée par Shanghai Shuxia Xiaowu Network Technology Co., Ltd. (ci-après « nous » ou « notre »). Ces Conditions constituent un accord entre vous et nous concernant votre utilisation de l'Application et des services associés. Veuillez lire et bien comprendre attentivement toutes les dispositions avant utilisation. En téléchargeant, installant, lançant ou utilisant l'Application, vous êtes réputé avoir lu et accepté l'ensemble de ces Conditions ; si vous n'êtes pas d'accord, veuillez cesser d'utiliser l'Application et la désinstaller.
 
 ## 1. Portée et parties
 Ces Conditions sont conclues entre vous et Shanghai Shuxia Xiaowu Network Technology Co., Ltd., et s'appliquent à toute votre utilisation de l'Application ainsi que de ses fonctionnalités et services.

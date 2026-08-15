@@ -1,8 +1,8 @@
-# Termini di servizio di 拾忆 · Memoria
+# Termini di servizio di Memoria · 拾忆
 
 Ultimo aggiornamento: August 9, 2026
 
-Benvenuto in 拾忆 · Memoria (di seguito la "App"). L'App è sviluppata e gestita da Shanghai Shuxia Xiaowu Network Technology Co., Ltd. (di seguito "noi"). I presenti Termini costituiscono un accordo tra te e noi in merito all'utilizzo dell'App e dei servizi correlati. Ti preghiamo di leggere e comprendere pienamente tutte le disposizioni con attenzione prima dell'uso. Scaricando, installando, avviando o utilizzando l'App, si considera che tu abbia letto e accettato di aderire a tutti i presenti Termini; se non li accetti, ti preghiamo di smettere di utilizzare l'App e di disinstallarla.
+Benvenuto in Memoria · 拾忆 (di seguito la "App"). L'App è sviluppata e gestita da Shanghai Shuxia Xiaowu Network Technology Co., Ltd. (di seguito "noi"). I presenti Termini costituiscono un accordo tra te e noi in merito all'utilizzo dell'App e dei servizi correlati. Ti preghiamo di leggere e comprendere pienamente tutte le disposizioni con attenzione prima dell'uso. Scaricando, installando, avviando o utilizzando l'App, si considera che tu abbia letto e accettato di aderire a tutti i presenti Termini; se non li accetti, ti preghiamo di smettere di utilizzare l'App e di disinstallarla.
 
 ## 1. Ambito e parti
 I presenti Termini sono stipulati tra te e Shanghai Shuxia Xiaowu Network Technology Co., Ltd., e si applicano a tutto il tuo utilizzo dell'App e delle sue funzionalità e servizi.

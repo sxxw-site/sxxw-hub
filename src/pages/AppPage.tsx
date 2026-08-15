@@ -49,21 +49,30 @@ export default function AppPage() {
               ))}
               {!app.live && <span className="mod-tag">{t('coming_soon')}</span>}
             </div>
-            <div className="mod-doclinks">
+            <div className="mod-store-grid">
               {app.links.appStore && (
                 <a
-                  className="mod-btn mod-btn-primary"
+                  className="mod-store-card mod-store-card-primary"
                   href={app.links.appStore}
                   target="_blank"
                   rel="noopener"
                 >
-                  {t('appstore')} →
+                  <span>App Store</span>
+                  <strong>{t('appstore')} →</strong>
                 </a>
               )}
-              <Link
-                className="mod-btn mod-btn-ghost"
-                to={`/${app.slug}/support`}
-              >
+              {app.slug === 'memoria' && (
+                <Link
+                  className="mod-store-card"
+                  to={`/${app.slug}/legal/privacy?store=huawei`}
+                >
+                  <span>华为应用市场</span>
+                  <strong>拾忆 · 隐私政策 →</strong>
+                </Link>
+              )}
+            </div>
+            <div className="mod-doclinks mod-app-support-link">
+              <Link className="mod-btn mod-btn-ghost" to={`/${app.slug}/support`}>
                 {t('support')}
               </Link>
             </div>
@@ -108,7 +117,9 @@ export default function AppPage() {
           <div className="mod-doclinks">
             <Link
               className="mod-btn mod-btn-ghost"
-              to={`/${app.slug}/legal/privacy`}
+              to={`/${app.slug}/legal/privacy${
+                app.slug === 'memoria' ? '?store=app-store' : ''
+              }`}
             >
               {t('privacy')}
             </Link>

@@ -1,6 +1,6 @@
-# Suporte do 拾忆 · Memoria
+# Suporte do Memoria · 拾忆
 
-拾忆 · Memoria — Datas comemorativas · Aniversários · Contagens regressivas. Se você tiver qualquer problema ou sugestão, adoraríamos ouvir você.
+Memoria · 拾忆 — Datas comemorativas · Aniversários · Contagens regressivas. Se você tiver qualquer problema ou sugestão, adoraríamos ouvir você.
 
 ## Contato
 Para qualquer dúvida, sugestão ou feedback, fique à vontade para nos enviar um e-mail: neverfall@foxmail.com, e responderemos o mais rápido possível.
